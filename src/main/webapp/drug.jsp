@@ -4,7 +4,7 @@
 <%@include file="navbar.jsp"%>
 
 <div class="first">
-    <form action="results.php" method="GET"><br>
+    <form action="results" method="GET"><br>
         <fieldset>
             <legend>Drug Assesment</legend><br />
             <span class="help-block">Take the test below and click Get Results to see your score.</span>
