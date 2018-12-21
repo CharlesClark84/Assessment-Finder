@@ -27,13 +27,41 @@ public class RehabServlet extends HttpServlet {
         String state  = req.getParameter("state");
         System.out.println(state);
 
-        if (state == "Alabama") {
-            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", req.getParameter("state")));
+        if (state.equals("Alabama")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Alabama");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=1sVooBn-l_t1jp3h75KIA4frr-PE");
         }
 
+        if (state.equals("Alaska")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Alaska");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.krLRuLz49OkY");
+        }
 
+        if (state.equals("Arizona")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Arizona");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kzZ7LDcrFYuU");
+        }
 
+        if (state.equals("Arkansas")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Arkansas");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kuw07WUVyAiQ");
+        }
 
+        if (state.equals("California")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "California");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kGCxF-mAy_Mw");
+        }
+
+        if (state.equals("Colorado")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Colorado");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kr42ws7mVsEQ");
+        }
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
         dispatcher.forward(req, resp);

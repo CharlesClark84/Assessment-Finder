@@ -40,7 +40,8 @@
                 when you meet with the doctor, clinician, or addiction specialist.</li></ul>
     </div>
 
-    <div class="well">Factors That Predispose You to Risky Behavior
+    <div class="well">
+        <h3>Factors That Predispose You to Risky Behavior</h3>
         <p>Basically, you are at risk for relapse if you fail to follow the strategies that support your recovery and, instead, put yourself in circumstances that
             are similar to those under which you used before. But you don’t simply “find” yourself in these circumstances. There are underlying reasons that usually
             lead to straying from the recovery path:</p>

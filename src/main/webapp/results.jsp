@@ -6,13 +6,12 @@
 <br/>
 <div class="container-fluid">
     <div class="well">
-        <h2 class="center">Facilities</h2><br/><br/>
+        <h2 class="center">Facilities in ${heading}</h2><br/><br/>
 
 
         <table border="1" cellpadding="5" cellspacing="5" width="50%" margin="auto"  id="dataTable" class="table table-striped table-hover center">
 
           <thead>
-          <th>State</th>
           <th>City</th>
           <th>Facility</th>
           <th>Phone</th>
@@ -21,19 +20,18 @@
             <tbody>
             <c:forEach var="rehab" items="${rehabs}">
                 <tr>
-                    <td>${rehab.st} </td>
                     <td>${rehab.city} </td>
                     <td>${rehab.facility} </td>
                     <td>${rehab.phone} </td>
                 </tr>
             </c:forEach>
             </tbody>
-
-
         </table><br/>
 
+        <p id="iframeDiv"><iframe src="${map}"  width="620" height="480"></iframe></p>
 
-        <div class="center"><a href="rehab.jsp" class="btn btn-success btn-send">I'm Finished</a> <button class="btn btn-success btn-send" onclick="printFunction()">Print this page</button></div>
+
+        <div class="center"><a href="rehab.jsp" class="btn btn-success btn-send">Back to search</a> <button class="btn btn-success btn-send" onclick="printFunction()">Print this page</button></div>
 
     </div>
 
