@@ -1,6 +1,6 @@
 <%@include file="taglib.jsp"%>
 <%@include file="head.jsp"%>
-<html>
+<body>
 <%@include file="navbar.jsp"%>
 
 <form action="rehab" method="GET"><br>
@@ -64,5 +64,6 @@
         <input type="submit" value="View" class="btn btn-success btn-send">
     </fieldset>
 </form><br />
-
+</body>
+<%@include file="footer.jsp"%>
 </html>

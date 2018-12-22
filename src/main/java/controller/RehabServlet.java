@@ -105,6 +105,24 @@ public class RehabServlet extends HttpServlet {
             req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kjvFuCMzyB9s");
         }
 
+        if (state.equals("Illinois")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Illinois");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kKjuN56gOpzw");
+        }
+
+        if (state.equals("Indiana")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Indiana");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kcdVQdHV3Yqc");
+        }
+
+        if (state.equals("Iowa")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Iowa");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kPjLKgqlQak0");
+        }
+
         RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
         dispatcher.forward(req, resp);
 

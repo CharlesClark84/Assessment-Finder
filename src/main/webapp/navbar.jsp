@@ -10,7 +10,7 @@
                     <li><a href="alcohol.jsp"><span class="glyphicon glyphicon-hourglass"></span> Alcohol Assessment</a></li>
                 </ul>
             </li>
-            <li><a href="rehab.jsp"><span class="glyphicon glyphicon-home"></span> Rehab</a></li>
+            <li><a href="rehab.jsp"><span class="glyphicon glyphicon-home"></span> Treatment Facilities</a></li>
             <li><a href="contact.jsp"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
             <li><a href="intervention.jsp"><span class="glyphicon glyphicon-user"></span>Intervention</a></li>
             <li><a href="admin.jsp"><span class="glyphicon glyphicon-user"></span> Admin</a></li>
