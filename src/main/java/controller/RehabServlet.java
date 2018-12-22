@@ -63,6 +63,48 @@ public class RehabServlet extends HttpServlet {
             req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kr42ws7mVsEQ");
         }
 
+        if (state.equals("Connecticut")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Connecticut");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kYIxPBStvgOY");
+        }
+
+        if (state.equals("Delaware")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Delaware");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.k2O3Ej7k3kGM");
+        }
+
+        if (state.equals("DistrictColumbia")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", " the District of Columbia");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.k6K0HZcg7-Uo");
+        }
+
+        if (state.equals("Florida")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Florida");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kDwpaTno0lvE");
+        }
+
+        if (state.equals("Georgia")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Georgia");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kvD9tASmnb6U");
+        }
+
+        if (state.equals("Hawaii")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Hawaii");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kXSB2yA9ptLk");
+        }
+
+        if (state.equals("Idaho")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Idaho");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kjvFuCMzyB9s");
+        }
+
         RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
         dispatcher.forward(req, resp);
 

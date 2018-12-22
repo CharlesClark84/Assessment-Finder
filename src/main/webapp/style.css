@@ -1,11 +1,20 @@
-#iframeDiv {
-    margin:auto;
+#frame {
+    text-align: center;
+    margin: auto;
 }
 
-nav {
-    text-size: 2em;
+.center {
+    text-align: center;
 }
 
-center {
+.navbar-nav > li > .dropdown-menu {
+    background-color: #3b3a39;
+}
+
+.dropdown-menu li a {
+    color: white;
+}
+
+thead {
     text-align: center;
 }

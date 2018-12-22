@@ -28,9 +28,11 @@
             </tbody>
         </table><br/>
 
-        <p id="iframeDiv"><iframe src="${map}"  width="620" height="480"></iframe></p>
+        <h3 class="center">Use the Map Below to Select a Location to Get More Information About a Facility</h3>
 
+        <div id="frame"><iframe src="${map}"  align="middle" width="600" height="500"></iframe></div>
 
+        <br/></br>
         <div class="center"><a href="rehab.jsp" class="btn btn-success btn-send">Back to search</a> <button class="btn btn-success btn-send" onclick="printFunction()">Print this page</button></div>
 
     </div>
