@@ -2,7 +2,8 @@
 <%@include file="head.jsp"%>
 <body>
 <%@include file="navbar.jsp"%>
-
+<div class="well">
+<div id="rehabSelectForm">
 <form action="rehab" method="GET"><br>
     <fieldset>
         <span class="help-block">Select a state to view treatment centers</span>
@@ -60,10 +61,11 @@
                 <option value="WI">Wisconsin</option>
                 <option value="WY">Wyoming</option>
             </select>
-        </select><br /><br />
-        <input type="submit" value="View" class="btn btn-success btn-send">
+        </select><br/><br/>
+        <input type="submit" value="View" class="btn btn-success btn-send"><br/><br/>
     </fieldset>
-</form><br />
+</form></div><br/>
+</div></div><br/>
 </body>
 <%@include file="footer.jsp"%>
 </html>

@@ -2,6 +2,10 @@
     text-align: center;
     margin: auto;
     border-radius: 2em;
+    -moz-border-radius: 2em;
+    -webkit-border-radius: 2em;
+    overflow: hidden;
+    position:relative;
 }
 
 .center {
@@ -16,6 +20,24 @@
     color: white;
 }
 
-thead {
+#dataTable {
+    border-radius: 5px;
+}
+
+#rehabSelectForm {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin:auto;
     text-align: center;
+    max-width: 40%;
+    background-color: lightgray;
+}
+
+body {
+    background-image: url("back.jpeg");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }

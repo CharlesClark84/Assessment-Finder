@@ -16,10 +16,10 @@
             to relapse into addictive behaviors. So diagnosing and treating a co-occurring disorder is as important as treating the drug or alcohol addiction.</p>
 
         <p>Diagnosis of disorders that occur alongside an addiction is typically done in the same manner as diagnosing the addiction. In addition to obtaining
-            feedback from the person seeking treatment, the clinician may perform tests, obtain the patient’s medical history, observe the person’s symptoms,
+            feedback from the person seeking treatment, the clinician may perform tests, obtain the patient&apos;s medical history, observe the person&apos;s symptoms,
             consult the DSM-5, and use clinical judgment to determine whether the person has a co-occurring disorder.
 
-            Of all the tools at the clinician’s disposal, observation of symptoms will be the most useful in diagnosing a co-occurring disorder. Here are a few
+            Of all the tools at the clinician&apos;s disposal, observation of symptoms will be the most useful in diagnosing a co-occurring disorder. Here are a few
             disorders that may be diagnosed during or after an addiction assessment, and the symptoms associated with them:</p>
         <ul>
             <li>Depression: Symptoms include fatigue, loss of energy, excessive sleeping or insomnia, inability to concentrate, depressed mood, loss of appetite or
@@ -43,7 +43,7 @@
     <div class="well">
         <h3>Factors That Predispose You to Risky Behavior</h3>
         <p>Basically, you are at risk for relapse if you fail to follow the strategies that support your recovery and, instead, put yourself in circumstances that
-            are similar to those under which you used before. But you don’t simply “find” yourself in these circumstances. There are underlying reasons that usually
+            are similar to those under which you used before. But you don&apos;t simply “find” yourself in these circumstances. There are underlying reasons that usually
             lead to straying from the recovery path:</p>
 
 

@@ -123,6 +123,37 @@ public class RehabServlet extends HttpServlet {
             req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kPjLKgqlQak0");
         }
 
+        if (state.equals("Kansas")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Kansas");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kAnfgnijzPlc");
+        }
+
+        if (state.equals("Kentucky")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Kentucky");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.koOBUA-MxzXM");
+        }
+
+        if (state.equals("Louisiana")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Louisiana");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kvQBXA0eKkyA");
+        }
+
+        if (state.equals("Maine")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Maine");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.ky5cM78RAaww");
+        }
+
+        if (state.equals("Maryland")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Maryland");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kYMVPpnfxyc0");
+        }
+
+
         RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
         dispatcher.forward(req, resp);
 

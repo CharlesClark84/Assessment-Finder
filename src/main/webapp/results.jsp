@@ -28,7 +28,7 @@
             </tbody>
         </table><br/>
 
-        <h3 class="center">Use the Map Below to Select a Location to Get More Information About a Facility</h3>
+        <h3 id="MapHeading" class="center">Use the Map Below to Select a Location to Get More Information About a Facility</h3><br/>
 
         <div id="frame"><iframe src="${map}"  align="middle" width="600" height="500"></iframe></div>
 
