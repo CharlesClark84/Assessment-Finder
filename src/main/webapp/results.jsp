@@ -3,13 +3,12 @@
 <%@include file="navbar.jsp"%>
 
 <html><body text-align="center">
-<br/>
-<div class="container-fluid">
+
     <div class="well">
         <h2 class="center">Facilities in ${heading}</h2><br/><br/>
 
 
-        <table border="1" cellpadding="5" cellspacing="5" width="50%" margin="auto"  id="dataTable" class="table table-striped table-hover center">
+        <table border="1" cellpadding="5" cellspacing="5" max-width="75%" margin="auto" class="table table-striped table-hover center">
 
           <thead>
            <th>City</th>
@@ -43,8 +42,6 @@
             window.print();
         }
     </script>
-
-</div>
 
 </body>
 

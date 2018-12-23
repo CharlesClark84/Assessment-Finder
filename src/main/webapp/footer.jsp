@@ -12,7 +12,7 @@
         </div>
 
 
-       <div>
+       <div id="copyright">
          Copyright &copy; 2018 Charles Clark All Rights Reserved
        </div>
     </div>

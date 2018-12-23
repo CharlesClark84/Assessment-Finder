@@ -220,6 +220,61 @@ public class RehabServlet extends HttpServlet {
             req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.ktfLXb0NSpE8");
         }
 
+        if (state.equals("NewYork")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "New York");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=1c8q1t7El3mC2UvxV_DSQ46wKTBg");
+        }
+
+        if (state.equals("NorthCarolina")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "North Carolina");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.k4cQuwdJKefw");
+        }
+
+        if (state.equals("NorthDakota")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "North Dakota");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.koFhR-C0vbRM");
+        }
+
+        if (state.equals("Ohio")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Ohio");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.k9GDrwdLGEm0");
+        }
+
+
+        if (state.equals("Oklahoma")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Oklahoma");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.klSeyO1_wO3A");
+        }
+
+        if (state.equals("Oregon")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Oregon");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.k1_D7Z99TNwY");
+        }
+
+        if (state.equals("Pennsylvania")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Pennsylvania");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kz8hkZ64Ir-4");
+        }
+
+        if (state.equals("RhodeIsland")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Rhode Island");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kFHKaLjk5X8o");
+        }
+
+        if (state.equals("SouthCarolina")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "South Carolina");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.k8L3SDw4t-30");
+        }
+
         RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
         dispatcher.forward(req, resp);
 

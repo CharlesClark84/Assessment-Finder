@@ -1,10 +1,14 @@
 <%@include file="taglib.jsp"%>
 <%@include file="head.jsp"%>
 <html>
+
 <%@include file="navbar.jsp"%>
-<div class="first">
+
     <div class="well">
-        <h2>Welcome</h2>
+
+
+
+        <h2 id="homePageWelcome" class="center">Welcome</h2>
 
         <p>The primary benefit of a self-assessment test is that it can be completed privately in a place where you feel comfortable,
             such as your home. The test can also provide immediate feedback regarding your drug and alcohol consumption. However, these tests
@@ -40,7 +44,7 @@
                 when you meet with the doctor, clinician, or addiction specialist.</li></ul>
 
 
-        <h3>Factors That Predispose You to Risky Behavior</h3>
+        <h3 id="factorsRiskyBehavior" class="center">Factors That Predispose You to Risky Behavior</h3>
         <p>Basically, you are at risk for relapse if you fail to follow the strategies that support your recovery and, instead, put yourself in circumstances that
             are similar to those under which you used before. But you don&apos;t simply find yourself in these circumstances. There are underlying reasons that usually
             lead to straying from the recovery path:</p>
@@ -63,7 +67,7 @@
         you a lifetime of positive experiences and increasing self-fulfillment.
 
 
-        <h4>Triggers for Risk and How to Manage Them</h4>
+        <h4 id="triggers" class="center">Triggers for Risk and How to Manage Them</h4>
 
         Certain specific kinds of situations are more likely to lead to risky behavior. You can remove yourself from high risk situations if you recognize them
         early and have a plan to move away immediately.
@@ -84,7 +88,7 @@
         sober friends to call on when urges to use come up is the best way to stay on track. Sober peers can talk you through a risky situation, reminding you of
         what is at risk and reminding you of your commitment to your goals. They can offer the cool head and sensible reasoning that you may temporarily lacking
         and can guide you back to your center of stability. Attending regular support group meetings can further your access to assistance. Don&apos;t go it alone.
-        Developing and using your support system is perhaps the most important thing you can do to manage your relapse risk.</div></div>
+        Developing and using your support system is perhaps the most important thing you can do to manage your relapse risk.</div>
 
 <%@include file="footer.jsp"%>
 </body>

@@ -25,10 +25,6 @@
     color: white;
 }
 
-#dataTable {
-   max-width: 75%;
-}
-
 #rehabSelectForm {
     border: 1px solid black;
     border-radius: 5px;
@@ -60,5 +56,11 @@ footer > div > div > ul > li > a {
 
 footer > div > div > ul > li > a:hover {
     color: greenyellow;
+}
+
+#copyright {
+    float:right;
+    padding:1%;
+    margin: 1%;
 }
 

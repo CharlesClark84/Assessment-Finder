@@ -3,7 +3,7 @@
 <html>
 <%@include file="navbar.jsp"%>
 
-<div class="first">
+<div class="first center">
     <div class="well">
         <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
             <span class="help-block">Please fill out the form if you wish to be contacted</span>
@@ -15,7 +15,7 @@
             <input id="contact" name="contact" type="text" placeholder="Enter contact Information"  size="30" /><br /><br />
             <label for="reason">Reason:</label><br />
             <input id="reason" name="reason" type="text" placeholder="Enter Contact Reason"  size="30" /><br /><br />
-            <input type="submit" name="submit" value="Submit" />
+            <input type="submit" name="submit" value="Submit" class="btn btn-success btn-send" />
         </form>
     </div></div>
 

@@ -65,7 +65,9 @@
         <input type="submit" value="View" class="btn btn-success btn-send"><br/><br/>
     </fieldset>
 </form></div><br/>
-</div></div><br/>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+</div></div>
+
 <%@include file="footer.jsp"%>
 </body>
 </html>

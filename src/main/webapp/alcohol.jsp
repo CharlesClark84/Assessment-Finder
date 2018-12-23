@@ -57,7 +57,7 @@
 
 
 
-            <input type="submit" name="submit" value="Get Results" />
+            <input type="submit" name="submit" value="Get Results" class="btn btn-success btn-send"/>
         </fieldset>
     </form></div><br />
 
