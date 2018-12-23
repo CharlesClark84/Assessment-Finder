@@ -1,6 +1,6 @@
 <%@include file="taglib.jsp"%>
 <%@include file="head.jsp"%>
-<html>
+<body>
 <%@include file="navbar.jsp"%>
 
 <div class="well">
@@ -60,4 +60,8 @@
 
             <input type="submit" name="submit" value="Get Results" />
         </fieldset>
-    </form></div><br /></html>
+    </form></div><br />
+
+<%@include file="footer.jsp"%>
+</body>
+</html>

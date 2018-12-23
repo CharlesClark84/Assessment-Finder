@@ -1,3 +1,4 @@
+
 #frame {
     text-align: center;
     margin: auto;
@@ -12,6 +13,10 @@
     text-align: center;
 }
 
+.navbar-nav > li {
+    font-size: 20px;
+}
+
 .navbar-nav > li > .dropdown-menu {
     background-color: #3b3a39;
 }
@@ -21,7 +26,7 @@
 }
 
 #dataTable {
-    border-radius: 5px;
+   max-width: 75%;
 }
 
 #rehabSelectForm {
@@ -34,10 +39,26 @@
 }
 
 body {
-    background-image: url("back.jpeg");
+    margin: 0;
+    padding-bottom: 0;
+    background-color: #265073;
+    /*background-image: url("back.jpeg");
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
 }
+
+footer {
+    color:white;
+}
+
+footer > div > div > ul > li > a {
+    color:white;
+}
+
+footer > div > div > ul > li > a:hover {
+    color: greenyellow;
+}
+

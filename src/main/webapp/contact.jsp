@@ -17,4 +17,9 @@
             <input id="reason" name="reason" type="text" placeholder="Enter Contact Reason"  size="30" /><br /><br />
             <input type="submit" name="submit" value="Submit" />
         </form>
-    </div></div
+    </div></div>
+
+</body>
+
+<%@include file="footer.jsp"%>
+</html>

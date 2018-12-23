@@ -40,32 +40,32 @@
                 <option value="Nevada">Nevada</option>
                 <option value="NewHampshire">New Hampshire</option>
                 <option value="NewJersey">New Jersey</option>
-                <option value="NM">New Mexico</option>
-                <option value="NY">New York</option>
-                <option value="NC">North Carolina</option>
-                <option value="ND">North Dakota</option>
-                <option value="OH">Ohio</option>
-                <option value="OK">Oklahoma</option>
-                <option value="OR">Oregon</option>
-                <option value="PA">Pennsylvania</option>
-                <option value="RI">Rhode Island</option>
-                <option value="SC">South Carolina</option>
-                <option value="SD">South Dakota</option>
-                <option value="TN">Tennessee</option>
-                <option value="TX">Texas</option>
-                <option value="UT">Utah</option>
-                <option value="VT">Vermont</option>
-                <option value="VA">Virginia</option>
-                <option value="WA">Washington</option>
-                <option value="WV">West Virginia</option>
-                <option value="WI">Wisconsin</option>
-                <option value="WY">Wyoming</option>
+                <option value="NewMexico">New Mexico</option>
+                <option value="NewYork">New York</option>
+                <option value="NorthCarolina">North Carolina</option>
+                <option value="NorthDakota">North Dakota</option>
+                <option value="Ohio">Ohio</option>
+                <option value="Oklahoma">Oklahoma</option>
+                <option value="Oregon">Oregon</option>
+                <option value="Pennsylvania">Pennsylvania</option>
+                <option value="RhodeIsland">Rhode Island</option>
+                <option value="SouthCarolina">South Carolina</option>
+                <option value="SouthDakota">South Dakota</option>
+                <option value="Tennessee">Tennessee</option>
+                <option value="Texas">Texas</option>
+                <option value="Utah">Utah</option>
+                <option value="Vermont">Vermont</option>
+                <option value="Virginia">Virginia</option>
+                <option value="Washington">Washington</option>
+                <option value="WestVirginia">West Virginia</option>
+                <option value="Wisconsin">Wisconsin</option>
+                <option value="Wyoming">Wyoming</option>
             </select>
         </select><br/><br/>
         <input type="submit" value="View" class="btn btn-success btn-send"><br/><br/>
     </fieldset>
 </form></div><br/>
 </div></div><br/>
-</body>
 <%@include file="footer.jsp"%>
+</body>
 </html>

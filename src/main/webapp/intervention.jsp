@@ -28,4 +28,8 @@
     If he has agreed to treatment, help him to get there immediately. If you wait, he might change his mind about going. You should already have some of his things packed for him and a plan to bring the person to a treatment program. Top Ten Reasons Interventions Fail
     </p>
 </div>
+
+</body>
+
+<%@include file="footer.jsp"%>
 </html>

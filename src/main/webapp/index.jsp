@@ -12,7 +12,7 @@
 
         <p>Alcohol and drug use may contribute to or arise in association with a physical or mental health disorder. According to the National Alliance on
             Mental Illness, approximately 20.2 million adults in the U.S. have some sort of substance use disorder. Of those 20.2 million, more than 50% of them
-            have a co-occurring mental illness.5 Untreated medical or mental health problems can complicate the recovery trajectory—sometimes prompting a person
+            have a co-occurring mental illness.5 Untreated medical or mental health problems can complicate the recovery trajectory, sometimes prompting a person
             to relapse into addictive behaviors. So diagnosing and treating a co-occurring disorder is as important as treating the drug or alcohol addiction.</p>
 
         <p>Diagnosis of disorders that occur alongside an addiction is typically done in the same manner as diagnosing the addiction. In addition to obtaining
@@ -38,38 +38,37 @@
                 It is important to provide as much information about your symptoms as possible so that the clinician can correctly diagnose your condition and develop
                 a treatment plan that addresses your specific needs. It may be a good idea to record the symptoms you experience in a journal and to present that journal
                 when you meet with the doctor, clinician, or addiction specialist.</li></ul>
-    </div>
 
-    <div class="well">
+
         <h3>Factors That Predispose You to Risky Behavior</h3>
         <p>Basically, you are at risk for relapse if you fail to follow the strategies that support your recovery and, instead, put yourself in circumstances that
-            are similar to those under which you used before. But you don&apos;t simply “find” yourself in these circumstances. There are underlying reasons that usually
+            are similar to those under which you used before. But you don&apos;t simply find yourself in these circumstances. There are underlying reasons that usually
             lead to straying from the recovery path:</p>
 
 
-        Difficulty dealing with emotions: Substance use is a common way that people attempt to deal with emotions­­ – positive or negative – that feel too intense
+        Difficulty dealing with emotions: Substance use is a common way that people attempt to deal with emotions, positive or negative, that feel too intense
         or overwhelming. Many people use when they are angry, sad, frustrated, nervous, depressed, guilty, bored or lonely. On the other hand, sometimes people
-        drink or use drugs in times of celebration, for instance, among friends at a party. If you feel you can’t manage your emotions without the help of a
+        drink or use drugs in times of celebration, for instance, among friends at a party. If you feel you can&apos;t manage your emotions without the help of a
         mood-altering substance, then you would likely benefit from learning and practicing some emotional coping skills, such as mindfulness or other
         cognitive-behavioral strategies. These can be gained through counseling or in a self-help education program.
 
-        Testing of personal control: At some point in your recovery, you may feel that you’ve achieved your goal – you feel that you have arrested your addictive
-        tendencies and feel you no longer need to be so restrictive with yourself; you feel in control of yourself. Unfortunately, letting go “just a bit” often
+        Testing of personal control: At some point in your recovery, you may feel that you&apos;ve achieved your goal.  You feel that you have arrested your addictive
+        tendencies and feel you no longer need to be so restrictive with yourself, you feel in control of yourself. Unfortunately, letting go just a bit often
         escalates until one has returned to old habits. The real test of control is when you can resist the urge to test your self-control.
 
         Feeling deprived: Sometimes during recovery, it may feel that all the fun has been let out of your life. Your friends and coworkers can celebrate with a
-        drink, but you can’t. Your old pals have now been banished from your social plans. You may sometimes feel that the cost of being sober is just too high.
+        drink, but you can&apos;t. Your old pals have now been banished from your social plans. You may sometimes feel that the cost of being sober is just too high.
         You just want to be like everyone else who can have fun and not be burdened with the need for constant vigilance and restraint. But, unfortunately, recovery
         does require exceptional self-discipline. You may need to remind yourself that, while your reward for this does not involve temporary relief, it does offer
         you a lifetime of positive experiences and increasing self-fulfillment.
 
 
-        Triggers for Risk and How to Manage Them
+        <h4>Triggers for Risk and How to Manage Them</h4>
 
         Certain specific kinds of situations are more likely to lead to risky behavior. You can remove yourself from high risk situations if you recognize them
         early and have a plan to move away immediately.
 
-        Being in a “using” environment:  If for some reason, you inadvertently find yourself in a place or among people who are using, leave immediately. You may
+        Being in a using environment:  If for some reason, you inadvertently find yourself in a place or among people who are using, leave immediately. You may
         have to abruptly leave a party without saying goodbye if someone suddenly pulls out drugs or paraphernalia. Do not worry about being rude. Your sobriety,
         and perhaps your life, are on the line, so social graces are the least of your concerns.
 
@@ -80,11 +79,13 @@
 
         Giving in to cravings:  Physical cravings and the psychological desire for alcohol or drugs may take a long time to recede, and they can reoccur unexpectedly.
         Fortunately, they are often short-lived and give way easily to distraction and mental focus. Plan ahead for how you can best handle your type of cravings. Use a substitute
-        (chew gum, drink an energy drink, exercise, etc.) and have mental and emotional resources available. You might create and use a personal mantra or affirmation, such as “It’s just a craving; I am stronger than this fleeting feeling.”
+        (chew gum, drink an energy drink, exercise, etc.) and have mental and emotional resources available. You might create and use a personal mantra or affirmation, such as It&apos;s just a craving; I am stronger than this fleeting feeling.
         Not having a support system: Everyone needs a support system, especially when dealing with difficult tasks such as maintaining ongoing sobriety. Having
         sober friends to call on when urges to use come up is the best way to stay on track. Sober peers can talk you through a risky situation, reminding you of
         what is at risk and reminding you of your commitment to your goals. They can offer the cool head and sensible reasoning that you may temporarily lacking
-        and can guide you back to your center of stability. Attending regular support group meetings can further your access to assistance. Don’t go it alone.
-        Developing and using your support system is perhaps the most important thing you can do to manage your relapse risk.</div></div><br />
+        and can guide you back to your center of stability. Attending regular support group meetings can further your access to assistance. Don&apos;t go it alone.
+        Developing and using your support system is perhaps the most important thing you can do to manage your relapse risk.</div></div>
 
 <%@include file="footer.jsp"%>
+</body>
+</html>

@@ -160,6 +160,66 @@ public class RehabServlet extends HttpServlet {
         }
 
 
+        if (state.equals("Michigan")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Michigan");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kVBxKzi1KtoA");
+        }
+
+        if (state.equals("Minnesota")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Minnesota");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kHp_B-AMs0WQ");
+        }
+
+        if (state.equals("Mississippi")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Mississippi");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kkXeRfRN-rd4");
+        }
+
+        if (state.equals("Missouri")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Missouri");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kq6lr2EAbT1k");
+        }
+
+        if (state.equals("Montana")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Montana");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kDunoRQhWemQ");
+        }
+
+        if (state.equals("Nebraska")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Nebraska");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.k3vlevmZKcqE");
+        }
+
+        if (state.equals("Nevada")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "Nevada");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kOTWyQzWRVSI");
+        }
+
+        if (state.equals("NewHampshire")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "New Hampshire");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kM21pydBGjio");
+        }
+
+        if (state.equals("NewJersey")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "New Jersey");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kjAPpbGRaU58");
+        }
+
+        if (state.equals("NewMexico")) {
+            req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
+            req.setAttribute("heading", "New Mexico");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.ktfLXb0NSpE8");
+        }
+
         RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
         dispatcher.forward(req, resp);
 

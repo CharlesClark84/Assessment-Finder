@@ -12,11 +12,11 @@
         <table border="1" cellpadding="5" cellspacing="5" width="50%" margin="auto"  id="dataTable" class="table table-striped table-hover center">
 
           <thead>
-          <th>City</th>
-          <th>Facility</th>
-          <th>Phone</th>
+           <th>City</th>
+           <th>Facility</th>
+           <th>Phone</th>
+          </thead>
 
-            </thead>
             <tbody>
             <c:forEach var="rehab" items="${rehabs}">
                 <tr>
