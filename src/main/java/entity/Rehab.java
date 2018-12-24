@@ -28,6 +28,7 @@ public class Rehab {
     private String st;
 
     @Column(name = "city")
+    @OrderBy("city ASC, city ASC")
     private String city;
 
     @Column(name = "facility")

@@ -5,10 +5,9 @@
 <html><body text-align="center">
 
     <div class="well">
-        <h2 class="center">Facilities in ${heading}</h2><br/><br/>
+        <h2 class="center">Facilities in ${heading}</h2>
 
-
-        <table border="1" cellpadding="5" cellspacing="5" max-width="75%" margin="auto" class="table table-striped table-hover center">
+        <table id="datatable" border="1" cellpadding="5" cellspacing="5" max-width="75%" margin="auto" class="table table-striped table-hover center">
 
           <thead>
            <th>City</th>
@@ -42,6 +41,13 @@
             window.print();
         }
     </script>
+
+    <script>
+        $(document).ready(function () {
+            var table = $('#datatable').DataTable();
+        });
+    </script>
+
 
 </body>
 
