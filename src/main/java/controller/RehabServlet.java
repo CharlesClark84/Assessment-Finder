@@ -30,43 +30,43 @@ public class RehabServlet extends HttpServlet {
         if (state.equals("Alabama")) {
             req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
             req.setAttribute("heading", "Alabama");
-            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=1sVooBn-l_t1jp3h75KIA4frr-PE");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=1JP51PdsFRkkEDGLxsuRxEzwifoEsjJ6o");
         }
 
         if (state.equals("Alaska")) {
             req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
             req.setAttribute("heading", "Alaska");
-            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.krLRuLz49OkY");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=1E3aKD41bOLEEtAkrqc5dcSTmoX1DaTwQ");
         }
 
         if (state.equals("Arizona")) {
             req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
             req.setAttribute("heading", "Arizona");
-            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kzZ7LDcrFYuU");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=17AUubDfK9XVKZmDF3ZB3qxO1Ktu6dZUP");
         }
 
         if (state.equals("Arkansas")) {
             req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
             req.setAttribute("heading", "Arkansas");
-            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kuw07WUVyAiQ");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=15p8YyL8b2V2vVUoNngTZWVPLQ7bhBaPI");
         }
 
         if (state.equals("California")) {
             req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
             req.setAttribute("heading", "California");
-            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kGCxF-mAy_Mw");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=144qNm2RaIoiOljbsqusIOQbfdIIGRz9R");
         }
 
         if (state.equals("Colorado")) {
             req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
             req.setAttribute("heading", "Colorado");
-            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kr42ws7mVsEQ");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=1qdKyCDy__DBImguiKIJscP51IAnn21iM");
         }
 
         if (state.equals("Connecticut")) {
             req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
             req.setAttribute("heading", "Connecticut");
-            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=zyhJ2BE4H--I.kYIxPBStvgOY");
+            req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=1FP_AwkQns-FrLFjEkcVkcBEj3a9Bxtzx");
         }
 
         if (state.equals("Delaware")) {
