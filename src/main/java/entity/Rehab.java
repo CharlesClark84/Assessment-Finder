@@ -1,7 +1,6 @@
 package entity;
 
 import org.hibernate.annotations.GenericGenerator;
-
 import javax.persistence.*;
 
 /**
@@ -15,7 +14,6 @@ public class Rehab {
      * Instantiates a new Rehab.
      */
     public Rehab() {
-
     }
 
     @Id

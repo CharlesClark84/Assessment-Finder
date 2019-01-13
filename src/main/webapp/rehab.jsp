@@ -65,7 +65,7 @@
         <input type="submit" value="View" class="btn btn-success btn-send"><br/><br/>
     </fieldset>
 </form></div><br/>
-        <div class="center">There are so many treatment centers out there these days. This list is not complete as of yet, but we are working hard to get it as complete as possible. If your facility is not listed let us know on the contact page and we will get it added to the list and the map as soon as possible. You can also let us know if a listing needs correction on the contact page.</div>
+        <div class="center">There are so many treatment centers out there these days. This list is not complete as of yet, but we are working hard to get it as complete as possible.</div>
         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 </div></div>
 

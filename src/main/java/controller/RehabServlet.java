@@ -304,9 +304,9 @@ public class RehabServlet extends HttpServlet {
             req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=1G7TIeDRmEsZ8MfJOxbKW5Q1U_8soBy3X");
         }
 
-        if (state.equals("Virgina")) {
+        if (state.equals("Virginia")) {
             req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));
-            req.setAttribute("heading", "Virgina");
+            req.setAttribute("heading", "Virginia");
             req.setAttribute("map", "https://www.google.com/maps/d/embed?mid=1N9Nio8NM6Tuh82eElJeqQ8m_6WqVpyGx");
         }
 
