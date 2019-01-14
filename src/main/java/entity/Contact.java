@@ -17,6 +17,14 @@ public class Contact {
     public Contact() {
     }
 
+    public Contact(String date, String firstName, String lastName, String contact, String reason) {
+        this.date = date;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.cnt = contact;
+        this.reason = reason;
+    }
+
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
@@ -25,16 +33,16 @@ public class Contact {
 
     @Column(name = "date")
     private String date;
-    
+
     @Column(name = "firstName")
     private String firstName;
 
     @Column(name = "lastName")
     private String lastName;
-    
+
     @Column(name = "contact")
-    private String contact;
-    
+    private String cnt;
+
     @Column(name = "reason")
     private String reason;
 
@@ -98,7 +106,7 @@ public class Contact {
      * @return the contact
      */
     public String getContact() {
-        return contact;
+        return cnt;
     }
 
     /**
@@ -107,7 +115,7 @@ public class Contact {
      * @param contact the contact
      */
     public void setContact(String contact) {
-        this.contact = contact;
+        this.cnt = contact;
     }
 
     /**
@@ -135,7 +143,7 @@ public class Contact {
                 ", date='" + date + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", contact='" + contact + '\'' +
+                ", contact='" + cnt + '\'' +
                 ", reason='" + reason + '\'' +
                 '}';
     }

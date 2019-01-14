@@ -13,7 +13,7 @@
 
 
        <div id="copyright">
-         Copyright &copy; 2018 Charles Clark All Rights Reserved
+         Copyright &copy; 2019 Charles Clark All Rights Reserved
        </div>
     </div>
 </footer>

@@ -4,12 +4,12 @@
 <%@include file="navbar.jsp"%>
 
 <div class="well">
-    <form action="result" method="GET"><br>
+    <form action="alcohol" method="GET"><br>
         <fieldset>
             <legend>Alcohol Assesment</legend><br />
             <span class="help-block">Take the test below and click Get Results to see your score.</span>
             <label for="date">Date:</label><br />
-            <input id="date" name="date" type="date" value="<?php echo $date; ?>" size="30" /><br /><br />
+            <input id="date" name="date" type="date" size="30" /><br /><br />
 
             <label for="question1">Do you feel you must consume alcohol to get through your day?</label><br />
             <input type="radio" name="question1" id="question1" value="yes" checked> Yes<br />
@@ -51,9 +51,9 @@
             <input type="radio" name="question10" id="question10" value="yes" checked> Yes<br>
             <input type="radio" name="question10" value="no"> No<br><br />
 
-            <label for="sucide">Are you currently having thoughts of harming  yourself or someone else?</label><br />
-            <input type="radio" name="sucide" id="sucide" value="yes" checked> Yes<br>
-            <input type="radio" name="sucide" value="no"> No<br>
+            <label for="suicide">Are you currently having thoughts of harming  yourself or someone else?</label><br />
+            <input type="radio" name="suicide" id="suicide" value="yes" checked> Yes<br>
+            <input type="radio" name="suicide" value="no"> No<br>
 
 
 

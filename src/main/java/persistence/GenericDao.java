@@ -35,13 +35,13 @@ public class GenericDao<T> {
         this.type = type;
     }
 
-    public int insert(T shift) {
+    public int insert(T type) {
         int id = 0;
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
-        id = (int)session.save(shift);
+        id = (int)session.save(type);
         transaction.commit();
-        logger.debug("Shift value to insert  " + shift);
+        logger.debug(" insert  " + type);
         session.close();
         return id;
     }

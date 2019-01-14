@@ -1,48 +1,51 @@
 package controller;
 
+
 import entity.Contact;
 import persistence.GenericDao;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+
 @WebServlet(
         urlPatterns = {"/contact"}
 )
-public class ContactServlet {
 
-    GenericDao rehabDao = new GenericDao(Contact.class);
+public class ContactServlet extends HttpServlet {
+
+    GenericDao contactDao = new GenericDao(Contact.class);
     Contact contact = new Contact();
 
-    public void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws IOException, ServletException {
+        @Override
+        protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        String date = request.getParameter("date");
+        String date = req.getParameter("date");
         contact.setDate(date);
 
-        String first = request.getParameter("firstName");
+        String first = req.getParameter("firstName");
         contact.setFirstName(first);
 
-        String last = request.getParameter("lastName");
+        String last = req.getParameter("lastName");
         contact.setLastName(last);
 
-        String ct = request.getParameter("contact");
-        contact.setContact(ct);
+        String cnt = req.getParameter("cnt");
+        contact.setContact(cnt);
 
-        String reason = request.getParameter("reason");
+        String reason = req.getParameter("reason");
         contact.setReason(reason);
 
-        request.setAttribute("info", rehabDao.getAll());
+       // req.setAttribute("info", rehabDao.getAll());
 
         //Insert user values into database
-        rehabDao.insert(contact);
+        contactDao.insert(contact);
 
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/contactResults.jsp");
-        dispatcher.forward(request, response);
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/admin.jsp");
+        dispatcher.forward(req, resp);
     }
 
     // Filter the string for special HTML characters to prevent

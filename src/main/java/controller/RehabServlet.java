@@ -2,7 +2,6 @@ package controller;
 
 import entity.Rehab;
 import persistence.GenericDao;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -19,9 +18,9 @@ public class RehabServlet extends HttpServlet {
 
     GenericDao rehabDao = new GenericDao(Rehab.class);
 
-    @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        @Override
+        protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
 
         String state  = req.getParameter("state");
