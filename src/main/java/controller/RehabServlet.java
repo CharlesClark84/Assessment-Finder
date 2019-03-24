@@ -1,6 +1,8 @@
 package controller;
 
 import entity.Rehab;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import persistence.GenericDao;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -18,13 +20,14 @@ public class RehabServlet extends HttpServlet {
 
     GenericDao rehabDao = new GenericDao(Rehab.class);
 
+    private final Logger logger = LogManager.getLogger(this.getClass());
 
         @Override
         protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
 
         String state  = req.getParameter("state");
-        System.out.println(state);
+        logger.debug("State passed " + state);
 
         if (state.equals("Alabama")) {
             req.setAttribute("rehabs", rehabDao.getByPropertyEqual("st", state));

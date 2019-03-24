@@ -1,6 +1,8 @@
 package controller;
 
 import entity.Alcohol;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import persistence.GenericDao;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -17,63 +19,87 @@ import java.io.IOException;
 public class AlcoholServlet extends HttpServlet {
 
     GenericDao alcoholDao = new GenericDao(Alcohol.class);
+    private final Logger logger = LogManager.getLogger(this.getClass());
     Alcohol alcohol = new Alcohol();
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         int yes = 0;
         String q1  = req.getParameter("question1");
-            if(q1 == "Yes") {
+        logger.debug("Q1 = " + q1);
+            if(q1.equals(1)) {
                 yes += 1;
             }
 
         String q2  = req.getParameter("question2");
-        if(q2 == "Yes") {
+        logger.debug("Q2 = " + q2);
+        if(q2.equals(1)) {
             yes += 1;
         }
 
         String q3  = req.getParameter("question3");
-        if(q3 == "Yes") {
+        logger.debug("Q3 = " + q3);
+        if(q3.equals(1)) {
             yes += 1;
         }
 
         String q4  = req.getParameter("question4");
-        if(q4 == "Yes") {
+        logger.debug("Q4 = " + q4);
+        if(q4.equals(1)) {
             yes += 1;
         }
 
         String q5  = req.getParameter("question5");
-        if(q5 == "Yes") {
+        logger.debug("Q5 = " + q5);
+        if(q5.equals(1)) {
             yes += 1;
         }
 
         String q6  = req.getParameter("question6");
-        if(q6 == "Yes") {
+        logger.debug("Q6 = " + q6);
+        if(q6.equals(1)) {
             yes += 1;
         }
 
         String q7  = req.getParameter("question7");
-        if(q1 == "Yes") {
+        logger.debug("Q7 = " + q7);
+        if(q7.equals(1)) {
             yes += 1;
         }
 
         String q8  = req.getParameter("question8");
-        if(q7 == "Yes") {
+        logger.debug("Q8 = " + q8);
+        if(q8.equals(1)) {
             yes += 1;
         }
 
         String q9  = req.getParameter("question9");
-        if(q8 == "Yes") {
+        logger.debug("Q9 = " + q9);
+        if(q9.equals(1)) {
             yes += 1;
         }
 
         String q10  = req.getParameter("question10");
-        if(q9 == "Yes") {
+        logger.debug("Q10 = " + q10);
+        if(q10.equals(1)) {
             yes += 1;
         }
+        String q11  = req.getParameter("suicide");
+        logger.debug("Q11 = " + q11);
 
-        if (yes >= 3) {
-            req.setAttribute("warning", "<div class=\"well\"><h2>Low Risk</h2>Low risk situations involve circumstances under which you are not likely to use. Examples include revisiting times and\n" +
+
+        if(q11.equals(1)) {
+            req.setAttribute("warning", "<div class='first'><h2>PLEASE SEEK HELP NOW!</h2><a href='https://suicidepreventionlifeline.org/'>National Suicide Prevention Lifeline Call</a> 1-800-273-8255<br />\n" +
+                    "            We can all help prevent suicide. The Lifeline provides 24/7, free and confidential support for people in distress, prevention and crisis\n" +
+                    "            resources for you or your loved ones, and best practices for professionals.\n" +
+                    "            The National Suicide Prevention Lifeline is a national network of local crisis centers that provides free and confidential emotional support\n" +
+                    "            to people in suicidal crisis or emotional distress 24 hours a day, 7 days a week. We're committed to improving crisis services and advancing\n" +
+                    "            suicide prevention by empowering individuals, advancing professional best practices, and building awareness.\n" +
+                    "            </div><br />");
+        }
+
+        if (yes > 3) {
+            req.setAttribute("result", "<div class=\"well\"><h2>Low Risk</h2>Low risk situations involve circumstances under which you are not likely to use. Examples include revisiting times and\n" +
                     "            places when, during your actively addicted period, you did not consume your drug of choice. You can be present around your doc(drug of choice)\n" +
                     "            and not use it. Circumstances as in having a bad day or being in a bad mood because of so and so... do not lead you to consume your doc.\n" +
                     "            If these statements are true then you need worry not. This does not mean that you are in the clear for addiction. Be wise to monitor your usage\n" +
@@ -85,7 +111,7 @@ public class AlcoholServlet extends HttpServlet {
         }
 
         if (yes >= 3 && yes <=6) {
-            req.setAttribute("warning", "<div class=\"well\"><h2>Medium Risk</h2>\n" +
+            req.setAttribute("result", "<div class=\"well\"><h2>Medium Risk</h2>\n" +
                     "            <p>Please think about seeking help</a>!</P>\n" +
                     "            <p>Do you want to be <a href=\"contact.php\">contacted</a>?</p>\n" +
                     "            Moderate risk situations involve circumstances under which you could be triggered to use. You may feel confident that you can abstain\n" +
@@ -95,7 +121,7 @@ public class AlcoholServlet extends HttpServlet {
         }
 
         if (yes >= 3 && yes <=6) {
-            req.setAttribute("warning", "<div class=\"well\"><h2>High Risk</h2><p>Please seek help immediately!</P>\n" +
+            req.setAttribute("result", "<div class=\"well\"><h2>High Risk</h2><p>Please seek help immediately!</P>\n" +
                     "            <p>Do you want to be <a href=\"contact.php\">contacted</a>?</p>\n" +
                     "            High risk situations involve repeating circumstances under which you were most likely to use your substance of choice – circumstances similar\n" +
                     "            to, or identical to, those where you may have often used before. It is very difficult to implement effective coping skills to avoid using when\n" +
@@ -115,19 +141,6 @@ public class AlcoholServlet extends HttpServlet {
                     "            <p>Do you have a question? Check out the <a href=\"contact.jsp\" >contact page</a></p></div></div>");
         }
 
-
-        String q11  = req.getParameter("suicide");
-        if(q11 == "Yes") {
-            req.setAttribute("warning", "<div class='first'><h2>PLEASE SEEK HELP NOW!</h2><a href='https://suicidepreventionlifeline.org/'>National Suicide Prevention Lifeline Call</a> 1-800-273-8255<br />\n" +
-                    "            We can all help prevent suicide. The Lifeline provides 24/7, free and confidential support for people in distress, prevention and crisis\n" +
-                    "            resources for you or your loved ones, and best practices for professionals.\n" +
-                    "            The National Suicide Prevention Lifeline is a national network of local crisis centers that provides free and confidential emotional support\n" +
-                    "            to people in suicidal crisis or emotional distress 24 hours a day, 7 days a week. We're committed to improving crisis services and advancing\n" +
-                    "            suicide prevention by empowering individuals, advancing professional best practices, and building awareness.\n" +
-                    "            </div><br />");
-        }
-
-        alcoholDao.insert(alcohol);
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/alcoholResults.jsp");
         dispatcher.forward(req, resp);

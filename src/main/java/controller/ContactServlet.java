@@ -39,12 +39,13 @@ public class ContactServlet extends HttpServlet {
         String reason = req.getParameter("reason");
         contact.setReason(reason);
 
-       // req.setAttribute("info", rehabDao.getAll());
+       req.setAttribute("fname", first);
+       req.setAttribute("lname", last);
 
         //Insert user values into database
         contactDao.insert(contact);
 
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/admin.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/contactResults.jsp");
         dispatcher.forward(req, resp);
     }
 

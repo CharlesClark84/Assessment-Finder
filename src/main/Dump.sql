@@ -25,17 +25,17 @@ DROP TABLE IF EXISTS `alcohol`;
 CREATE TABLE `alcohol` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `date` date DEFAULT NULL,
-  `q1` varchar(255) DEFAULT NULL,
-  `q2` varchar(255) DEFAULT NULL,
-  `q3` varchar(255) DEFAULT NULL,
-  `q4` varchar(255) DEFAULT NULL,
-  `q5` varchar(255) DEFAULT NULL,
-  `q6` varchar(255) DEFAULT NULL,
-  `q7` varchar(255) DEFAULT NULL,
-  `q8` varchar(255) DEFAULT NULL,
-  `q9` varchar(255) DEFAULT NULL,
-  `q10` varchar(255) DEFAULT NULL,
-  `suicide` varchar(255) DEFAULT NULL,
+  `q1` bool,
+  `q2` bool,
+  `q3` bool,
+  `q4` bool,
+  `q5` bool,
+  `q6` bool,
+  `q7` bool,
+  `q8` bool,
+  `q9` bool,
+  `q10` bool,
+  `suicide` bool,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;

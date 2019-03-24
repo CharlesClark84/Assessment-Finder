@@ -3,7 +3,7 @@
 <html>
 <%@include file="navbar.jsp"%>
 
-<div class="first center">
+<div class="first center container">
     <div class="well">
         <form action="contact" method="get" >
             <span class="help-block">Please fill out the form if you wish to be contacted</span>

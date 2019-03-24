@@ -1,5 +1,5 @@
-<nav class="navbar navbar-inverse justify-content-center">
-    <div class="container-fluid">
+<nav class="navbar navbar-inverse">
+    <div class="container">
         <ul class="nav navbar-nav">
             <li><a href="index.jsp"><span class="glyphicon glyphicon-home"></span> Home</a></li>
             <li class="dropdown">

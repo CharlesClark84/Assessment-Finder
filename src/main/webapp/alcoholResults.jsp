@@ -4,7 +4,7 @@
 <br/>
 <div class="container-fluid">
     <div class="well">
-        <h2 class="center">Receipt</h2><br/><br/>
+        <h2 class="center">Alcohol Self-Assessment Survey Results</h2><br/><br/>
 
         <div>
             <h1>
@@ -17,7 +17,7 @@
         </div>
 
 
-        <div class="center"><a href="index.jsp" class="btn btn-success btn-send">I'm Finished</a> <button class="btn btn-success btn-send" onclick="printFunction()">Print this page</button></div>
+        <div class="center"><a href="index.jsp" class="btn btn-success btn-send">Home</a></div>
 
     </div>
 

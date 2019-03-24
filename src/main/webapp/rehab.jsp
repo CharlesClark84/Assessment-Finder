@@ -2,7 +2,7 @@
 <%@include file="head.jsp"%>
 <body>
 <%@include file="navbar.jsp"%>
-<div class="well">
+<div class="well container"><br/><br/><br/><br/><br/><br/>
 <div id="rehabSelectForm">
 <form action="rehab" method="GET"><br>
     <fieldset>
@@ -66,7 +66,7 @@
     </fieldset>
 </form></div><br/>
         <div class="center">There are so many treatment centers out there these days. This list is not complete as of yet, but we are working hard to get it as complete as possible.</div>
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 </div></div>
 
 <%@include file="footer.jsp"%>

@@ -2,12 +2,23 @@
 #frame {
     text-align: center;
     margin: auto;
-    border-radius: 2em;
-    -moz-border-radius: 2em;
-    -webkit-border-radius: 2em;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
     overflow: hidden;
     position:relative;
 }
+
+iframe {
+        text-align: center;
+        margin: auto;
+        border-radius: 2px;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        overflow: hidden;
+        position:relative;
+}
+
 
 .center {
     text-align: center;
@@ -15,6 +26,9 @@
 
 .navbar-nav > li {
     font-size: 20px;
+    display: inline-block;
+    float: none;
+    text-align: center;
 }
 
 .navbar-nav > li > .dropdown-menu {
@@ -35,8 +49,6 @@
 }
 
 body {
-    margin: 0;
-    padding-bottom: 0;
     background-color: #265073;
     /*background-image: url("back.jpeg");
     /* Center and scale the image nicely */
@@ -64,3 +76,10 @@ footer > div > div > ul > li > a:hover {
     margin: 1%;
 }
 
+.index {
+    margin-top: -20px;
+}
+
+#datatable {
+    border-radius: 3px;
+}

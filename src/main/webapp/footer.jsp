@@ -1,5 +1,5 @@
 <footer>
-    <div>
+    <div class="container">
         <div>
             <ul>
                 <li><a href="https://suicidepreventionlifeline.org/">Suicide Prevention Lifeline</a></li>
@@ -13,7 +13,7 @@
 
 
        <div id="copyright">
-         Copyright &copy; 2019 Charles Clark All Rights Reserved
+         &copy;2019 Charles Clark Productions All Rights Reserved
        </div>
     </div>
 </footer>

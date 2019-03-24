@@ -4,7 +4,7 @@
 
 <%@include file="navbar.jsp"%>
 
-    <div class="well">
+    <div class="well index container">
 
 
 
@@ -67,7 +67,7 @@
         you a lifetime of positive experiences and increasing self-fulfillment.
 
 
-        <h4 id="triggers" class="center">Triggers for Risk and How to Manage Them</h4>
+        <h3 id="triggers" class="center">Triggers for Risk and How to Manage Them</h3>
 
         Certain specific kinds of situations are more likely to lead to risky behavior. You can remove yourself from high risk situations if you recognize them
         early and have a plan to move away immediately.

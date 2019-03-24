@@ -4,7 +4,7 @@
 
 <html><body text-align="center">
 
-    <div class="well">
+    <div class="well index container">
         <h2 class="center">Facilities in ${heading}</h2>
 
         <table id="datatable" border="1" cellpadding="5" cellspacing="5" max-width="75%" margin="auto" class="table table-striped table-hover center">

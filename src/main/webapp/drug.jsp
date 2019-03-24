@@ -3,7 +3,7 @@
 <body>
 <%@include file="navbar.jsp"%>
 
-<div class="well">
+<div class="well index container">
     <form action="results" method="GET"><br>
         <fieldset>
             <legend>Drug Assesment</legend><br />
