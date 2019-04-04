@@ -4,23 +4,20 @@
 
 <%@include file="navbar.jsp"%>
 
-<br/>
 <div class="container">
     <div class="well index">
-        <h1 class="center">Alcohol Self-Assessment Survey Results</h1><br/><br/>
+        <h1 class="center"><span class="green">Alcohol Self-Assessment Survey Results</span></h1><br/><br/>
 
-        <div>
-            <h2>
+        <div class="well contain">
+            <div>
                 ${warning}
-            </h2>
+            </div>
 
-            <h2>
+            <div>
                 ${result}
-            </h2>
+            </div>
         </div>
 
-
-        <div class="center"><a href="index.jsp" class="btn btn-success btn-send">Home</a></div>
 
     </div>
 
@@ -29,4 +26,5 @@
 </div>
 
 </body>
+<%@include file="footer.jsp"%>
 </html>

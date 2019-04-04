@@ -5,7 +5,7 @@
 <html><body text-align="center">
 
     <div class="well index container">
-        <h2 class="center">Facilities in ${heading}</h2>
+        <h2 class="center"><span class="green">Facilities in ${heading}</span></h2>
 
         <table id="datatable" border="1" cellpadding="5" cellspacing="5" max-width="75%" margin="auto" class="table table-striped table-hover center">
 
@@ -26,12 +26,12 @@
             </tbody>
         </table><br/>
 
-        <h3 id="MapHeading" class="center">Use the Map Below to Select a Location to Get More Information About a Facility</h3><br/>
+        <h3 id="MapHeading" class="center"><span class="green">Use the Map Below to Select a Location to Get More Information About a Facility</span></h3><br/>
 
         <div id="frame"><iframe src="${map}"  align="middle" width="600" height="500"></iframe></div>
 
         <br/></br>
-        <div class="center"><a href="rehab.jsp" class="btn btn-success btn-send">Back to search</a> <button class="btn btn-success btn-send" onclick="printFunction()">Print this page</button></div>
+        <div class="center"><a href="rehab.jsp" class="btn btn-success btn-send buttonHover">Back to search</a> <button class="btn btn-success btn-send buttonHover" onclick="printFunction()">Print this page</button></div>
 
     </div>
 

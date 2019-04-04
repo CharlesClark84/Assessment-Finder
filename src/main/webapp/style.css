@@ -26,6 +26,7 @@
 
 .dropdown-menu li a {
     color: white;
+    font-size: 16px;
 }
 
 #rehabSelectForm {
@@ -46,7 +47,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    font-size: 18px;
+    font-size: 19px;
+    font-family: "Times New Roman", Times, serif;
 }
 
 footer {
@@ -89,4 +91,39 @@ input[type="submit"]:hover {
 
 #state {
     max-width: 50%;
+}
+
+.buttonHover {
+    width:35%;
+    height:35%;
+    border-radius: 20px;
+}
+
+.buttonHover:hover {
+    box-shadow: 1px 1px 2px 2px pink;
+}
+
+.contain {
+    background-color: #66973a;
+}
+
+.blue {
+    color:blue;
+}
+
+.green {
+    color: forestgreen;
+}
+
+.red {
+    color:firebrick;
+}
+
+.yellow {
+    color: #efef00;
+}
+
+#groupPic {
+    text-align: center;
+    margin:auto;
 }

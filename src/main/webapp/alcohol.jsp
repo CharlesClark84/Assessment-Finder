@@ -6,7 +6,7 @@
 <div class="well center index container">
     <form action="alcohol" method="GET"><br>
         <fieldset>
-            <div class="assessmentHeader"><legend>Alcohol Assessment</legend><br />
+            <div class="assessmentHeader"><legend><h1><span class="green">Alcohol Assessment</span></h1></legend>
                 <span class="help-block">Take the test below and click Get Results to see your score.</span></div>
 
             <label for="question1">Do you feel you must consume alcohol to get through your day?</label><br />

@@ -2,11 +2,10 @@
 <%@include file="head.jsp"%>
 <body>
 <%@include file="navbar.jsp"%>
-<div class="well index container"><br/><br/><br/><br/><br/><br/>
+<div class="well index container"><br/><br/><br/><h2><span class="green">Select a state to view treatment centers</span></h2><br/><br/><br/>
 <div id="rehabSelectForm">
 <form action="rehab" method="GET"><br>
     <fieldset>
-        <span class="help-block">Select a state to view treatment centers</span>
         <label for="state">States:</label>
         <select id="state" name="state">
                 <option value="Alabama">Alabama</option>
@@ -66,7 +65,7 @@
     </fieldset>
 </form></div><br/>
         <div class="center">There are so many treatment centers out there these days. This list is not complete as of yet, but we are working hard to get it as complete as possible.</div>
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 </div></div>
 
 <%@include file="footer.jsp"%>

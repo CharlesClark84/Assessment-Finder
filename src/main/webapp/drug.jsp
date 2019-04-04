@@ -6,7 +6,7 @@
 <div class="center well index container">
     <form action="results" method="GET"><br>
         <fieldset>
-            <div class="assessmentHeader"><legend>Drug Assessment</legend><br />
+            <div class="assessmentHeader"><legend><h1><span class="green">Drug Assessment</span></h1></legend>
             <span class="help-block">Take the test below and click Get Results to see your score.</span></div>
 
             <label for="question1">Do you feel you must consume drugs to get through your day?</label><br />
@@ -50,8 +50,8 @@
             <input type="radio" name="question10" > No<br><br/>
 
             <label for="sucide">Are you currently having thoughts of harming  yourself or someone else?</label><br />
-            <input type="radio" name="sucide" id="sucide" value="a" checked> Yes<br>
-            <input type="radio" name="sucide" > No<br>
+            <input type="radio" name="suicide" id="sucide" value="a" checked> Yes<br>
+            <input type="radio" name="suicide" > No<br>
 
 
 

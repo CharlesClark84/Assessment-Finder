@@ -6,7 +6,7 @@
 
     <div class="well index container">
 
-        <h2 id="homePageWelcome" class="center">Welcome</h2>
+        <h1 class="center"><span class="green">Welcome</span></h1>
 
         <p>The primary benefit of a self-assessment test is that it can be completed privately in a place where you feel comfortable,
             such as your home. The test can also provide immediate feedback regarding your drug and alcohol consumption. However, these tests
@@ -24,25 +24,25 @@
             Of all the tools at the clinician&apos;s disposal, observation of symptoms will be the most useful in diagnosing a co-occurring disorder. Here are a few
             disorders that may be diagnosed during or after an addiction assessment, and the symptoms associated with them:</p>
         <ul>
-            <li>Depression: Symptoms include fatigue, loss of energy, excessive sleeping or insomnia, inability to concentrate, depressed mood, loss of appetite or
+            <li><span class="blue">Depression</span>: Symptoms include fatigue, loss of energy, excessive sleeping or insomnia, inability to concentrate, depressed mood, loss of appetite or
                 excessive appetite, and suicidal ideation.
             </li>
-            <li>Anxiety: Symptoms include difficulty controlling worry, restlessness, difficulty concentrating, muscle tension, irritability, and sleep disturbances.
+            <li><span class="blue">Anxiety</span>: Symptoms include difficulty controlling worry, restlessness, difficulty concentrating, muscle tension, irritability, and sleep disturbances.
                 Post-traumatic stress: Symptoms include mentally re-experiencing the trauma, hyper-arousal, dissociation, cognitive and behavioral avoidance, and
                 emotional numbing.</li>
-            <li>Psychosis: Symptoms include visual and auditory hallucinations, delusions, disorganized speech, and catatonic behavior.</li>
-            <li>Liver disease: Signs of liver disease include jaundice, itching, easy bruising, edema, mental confusion, kidney failure, fatigue, vague abdominal pain,
+            <li><span class="blue">Psychosis</span>: Symptoms include visual and auditory hallucinations, delusions, disorganized speech, and catatonic behavior.</li>
+            <li><span class="blue">Liver disease</span>: Signs of liver disease include jaundice, itching, easy bruising, edema, mental confusion, kidney failure, fatigue, vague abdominal pain,
                 loss of appetite, and weakness.</li>
-            <li>Kidney disease: Symptoms include lethargy, shortness of breath, weakness, edema, metabolic acidosis, high potassium levels, uremia, and anemia.</li>
+            <li><span class="blue">Kidney disease</span>: Symptoms include lethargy, shortness of breath, weakness, edema, metabolic acidosis, high potassium levels, uremia, and anemia.</li>
 
-            <li>Malnutrition: Symptoms include fatigue, dizziness, weight loss, irritability, bone or joint pain, bloated abdomen, edema, brittle nails, dry skin,
+            <li><span class="blue">Malnutrition</span>: Symptoms include fatigue, dizziness, weight loss, irritability, bone or joint pain, bloated abdomen, edema, brittle nails, dry skin,
                 hair loss, changes in skin and hair color, slow wound healing, loss of appetite, and sunken temples.
                 It is important to provide as much information about your symptoms as possible so that the clinician can correctly diagnose your condition and develop
                 a treatment plan that addresses your specific needs. It may be a good idea to record the symptoms you experience in a journal and to present that journal
                 when you meet with the doctor, clinician, or addiction specialist.</li></ul>
 
 
-        <h3 id="factorsRiskyBehavior" class="center">Factors That Predispose You to Risky Behavior</h3>
+        <h3 id="factorsRiskyBehavior" class="center"><span class="green">Factors That Predispose You to Risky Behavior</span></h3>
         <p>Basically, you are at risk for relapse if you fail to follow the strategies that support your recovery and, instead, put yourself in circumstances that
             are similar to those under which you used before. But you don&apos;t simply find yourself in these circumstances. There are underlying reasons that usually
             lead to straying from the recovery path:</p>
@@ -65,7 +65,7 @@
         you a lifetime of positive experiences and increasing self-fulfillment.
 
 
-        <h3 id="triggers" class="center">Triggers for Risk and How to Manage Them</h3>
+        <h3 id="triggers" class="center"><span class="green">Triggers for Risk and How to Manage Them</span></h3>
 
         Certain specific kinds of situations are more likely to lead to risky behavior. You can remove yourself from high risk situations if you recognize them
         early and have a plan to move away immediately.

@@ -24,19 +24,19 @@ public class ContactServlet extends HttpServlet {
         @Override
         protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        String date = req.getParameter("date");
+        String date = req.getParameter("date").trim();
         contact.setDate(date);
 
-        String first = req.getParameter("firstName");
+        String first = req.getParameter("firstName").trim();
         contact.setFirstName(first);
 
-        String last = req.getParameter("lastName");
+        String last = req.getParameter("lastName").trim();
         contact.setLastName(last);
 
-        String cnt = req.getParameter("cnt");
+        String cnt = req.getParameter("cnt").trim();
         contact.setContact(cnt);
 
-        String reason = req.getParameter("reason");
+        String reason = req.getParameter("reason").trim();
         contact.setReason(reason);
 
        req.setAttribute("fname", first);
