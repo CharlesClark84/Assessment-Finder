@@ -1,5 +1,7 @@
-<footer>
+<nav class="navbar navbar-inverse navbar-collapse">
     <div class="container">
+<footer>
+    <div class="container"><br/>
         <div>
             <ul>
                 <li><a href="https://suicidepreventionlifeline.org/">Suicide Prevention Lifeline</a></li>
@@ -17,3 +19,5 @@
        </div>
     </div>
 </footer>
+    </div>
+</nav>

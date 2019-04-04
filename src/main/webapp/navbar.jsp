@@ -1,6 +1,6 @@
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-collapse">
     <div class="container">
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav navbar-collapse">
             <li><a href="index.jsp"><span class="glyphicon glyphicon-home"></span> Home</a></li>
             <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-question-sign"></span> Do I Need Treatment?
@@ -16,4 +16,4 @@
             <li><a href="admin.jsp"><span class="glyphicon glyphicon-user"></span> Admin</a></li>
         </ul>
     </div>
-    </nav>
+</nav>

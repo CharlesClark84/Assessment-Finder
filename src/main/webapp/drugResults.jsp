@@ -7,7 +7,7 @@
 <br/>
 <div class="container">
     <div class="well index">
-        <h1 class="center">Alcohol Self-Assessment Survey Results</h1><br/><br/>
+        <h1 class="center">Drug Self-Assessment Survey Results</h1><br/><br/>
 
         <div>
             <h2>

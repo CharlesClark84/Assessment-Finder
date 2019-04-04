@@ -6,8 +6,6 @@
 
     <div class="well index container">
 
-
-
         <h2 id="homePageWelcome" class="center">Welcome</h2>
 
         <p>The primary benefit of a self-assessment test is that it can be completed privately in a place where you feel comfortable,

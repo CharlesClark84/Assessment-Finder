@@ -9,17 +9,6 @@
     position:relative;
 }
 
-iframe {
-        text-align: center;
-        margin: auto;
-        border-radius: 2px;
-        -moz-border-radius: 2px;
-        -webkit-border-radius: 2px;
-        overflow: hidden;
-        position:relative;
-}
-
-
 .center {
     text-align: center;
 }
@@ -41,11 +30,12 @@ iframe {
 
 #rehabSelectForm {
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
     margin:auto;
     text-align: center;
     max-width: 40%;
     background-color: lightgray;
+    box-shadow: 1px 1px 2px 2px gray inset;
 }
 
 body {
@@ -56,6 +46,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    font-size: 18px;
 }
 
 footer {
@@ -76,10 +67,26 @@ footer > div > div > ul > li > a:hover {
     margin: 1%;
 }
 
-.index {
-    margin-top: -20px;
-}
 
 #datatable {
     border-radius: 3px;
+}
+
+input[type="submit"] {
+    width:35%;
+    height:35%;
+    border-radius: 20px;
+}
+
+input[type="submit"]:hover {
+    box-shadow: 1px 1px 2px 2px pink;
+}
+
+
+.index {
+    box-shadow: 1px 1px 2px 2px gray inset;
+}
+
+#state {
+    max-width: 50%;
 }

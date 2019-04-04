@@ -2,7 +2,7 @@
 <%@include file="head.jsp"%>
 <body>
 <%@include file="navbar.jsp"%>
-<div class="well container"><br/><br/><br/><br/><br/><br/>
+<div class="well index container"><br/><br/><br/><br/><br/><br/>
 <div id="rehabSelectForm">
 <form action="rehab" method="GET"><br>
     <fieldset>
