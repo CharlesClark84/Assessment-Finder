@@ -31,7 +31,7 @@
         <div id="frame"><iframe src="${map}"  align="middle" width="600" height="500"></iframe></div>
 
         <br/></br>
-        <div class="center"><a href="rehab.jsp" class="btn btn-success btn-send buttonHover">Back to search</a> <button class="btn btn-success btn-send buttonHover" onclick="printFunction()">Print this page</button></div>
+        <div class="center"><a href="rehab.jsp" class="btn btn-success btn-send buttonHover">Back</a> <button class="btn btn-success btn-send buttonHover" onclick="printFunction()">Print Page</button></div>
 
     </div>
 

@@ -2,25 +2,26 @@
 <%@include file="head.jsp"%>
 <html>
 <%@include file="navbar.jsp"%>
+
 <div class="well index container">
     <h1 class="center"><span class="green">What an Intervention can help with</span></h1>
-    <p class="center"><span class="blue">Drug rehab</span> &diams; <span class="blue">Alcohol treatment</span> &diams; <span class="blue">Detox centers </span> &diams; <span class="blue">Withdrawal treatments</span></p>
+    <p class="center"><span class="blue">Drug rehab</span> <span class="glyphicon glyphicon-star-empty"></span> <span class="blue">Alcohol treatment</span> <span class="glyphicon glyphicon-star-empty"></span> <span class="blue">Detox centers </span> <span class="glyphicon glyphicon-star-empty"></span> <span class="blue">Withdrawal treatments</span></p>
 
-    <p>You might have tried to convince your loved one to go into rehab for years, but it hasn&apos;t worked. Your efforts might have even pushed your loved one away.
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;You might have tried to convince your loved one to go into rehab for years, but it hasn&apos;t worked. Your efforts might have even pushed your loved one away.
         But an intervention might be the tool you need to break through and achieve the goal you&apos;re after. An intervention creates a space to honestly and
         lovingly explain how your loved one&apos;s behavior is affecting you and how he has changed. Instead of nagging or talking in a resentful or angry way, this
         tactic focuses on feelings and creating awareness for the person who is addicted to drugs or alcohol. When a number of people come together and tell the
         person the same thing, it can really create awareness.</p>
 
-    <p>It can be beneficial to have a professional help run your intervention. A professional can guide the discussion, encourage the person to open up and can
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;It can be beneficial to have a professional help run your intervention. A professional can guide the discussion, encourage the person to open up and can
         give helpful advice.  Do you know the differences between a 12 step call and an intervention? A drug intervention can help someone realize he is addicted
         and to what extent. Many people do not realize they are addicted; they simply think they enjoy drugs or alcohol, but don&apos;t realize it is taking over their
         lives.</p>
 
-    <p>Some people are surrounded by other addicted people, so their behavior seems normal in comparison. During an intervention, they start to see how their lives
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;Some people are surrounded by other addicted people, so their behavior seems normal in comparison. During an intervention, they start to see how their lives
         have changed and how the drug has affected their family life, friend life and work life.</p>
 
-    <div id="groupPic"><img src="grouppic.jpg" alt="people in group" height="300" width="600" border="2"></div>
+    <div class="groupPic"><img src="pics/grouppic.jpg" alt="people in group" height="40%" width="55%" border="2"></div>
 
     <h2 class="center"><span class="green">The Steps of Drug Intervention The following 9 steps can help you plan for and run your intervention</span></h2>
 
@@ -88,7 +89,10 @@
         that councilor you wanted me to! If I don&apos;t have to work at that place I won&apos;t be stressed, so I won&apos;t have to drink so much! I promise, I swear, trust
         me!</li>
 
-   <li> Family must realize that addicts and alcoholics become master manipulators. That&apos;s how they&apos;ve managed to continue using while turning a blind eye to the
+        <br/><div class="groupPic"><img src="pics/dont-give-up.png" alt="people in group" height="45%" width="45%" border="2"></div><br/>
+
+
+        <li> Family must realize that addicts and alcoholics become master manipulators. That&apos;s how they&apos;ve managed to continue using while turning a blind eye to the
         chaos left in their wake. If sympathy or another ploy seems plausible, he will pull out all stops. Family members must remain firm in their resolve, or
        there is little chance the addict will agree to treatment.</li>
 

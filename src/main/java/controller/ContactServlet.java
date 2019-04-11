@@ -41,6 +41,7 @@ public class ContactServlet extends HttpServlet {
 
        req.setAttribute("fname", first);
        req.setAttribute("lname", last);
+            req.setAttribute("contact", cnt);
 
         //Insert user values into database
         contactDao.insert(contact);

@@ -1,12 +1,15 @@
 <%@include file="taglib.jsp"%>
 <%@include file="head.jsp"%>
+<html>
 <body>
 <%@include file="navbar.jsp"%>
-<div class="well index container"><br/><br/><br/><h2><span class="green">Select a state to view treatment centers</span></h2><br/><br/><br/>
+
+
+<div class="well index container center"><br/><h2><span class="green">Select a State to View Treatment Centers</span></h2><br/>
 <div id="rehabSelectForm">
 <form action="rehab" method="GET"><br>
     <fieldset>
-        <label for="state">States:</label>
+            <label for="state"><span class="blue">States:</span></label><br/>
         <select id="state" name="state">
                 <option value="Alabama">Alabama</option>
                 <option value="Alaska">Alaska</option>
@@ -65,7 +68,10 @@
     </fieldset>
 </form></div><br/>
         <div class="center">There are so many treatment centers out there these days. This list is not complete as of yet, but we are working hard to get it as complete as possible.</div>
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/>
+        <div class="groupPic"><img src="pics/oneDrugAway.jpg" alt="people in group" height="50%" width="60%" border="2"></div>
+
+        <br/><br/><br/>
 </div></div>
 
 <%@include file="footer.jsp"%>

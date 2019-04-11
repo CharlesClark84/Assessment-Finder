@@ -8,7 +8,6 @@
     <div class="well index">
         <h1 class="center"><span class="green">Drug Self-Assessment Survey Results</span></h1><br/><br/>
 
-        <div class="well contain">
             <div>
                 ${warning}
             </div>
@@ -17,11 +16,6 @@
                 ${result}
             </div>
         </div>
-
-
-    </div>
-
-
 
 </div>
 

@@ -5,9 +5,9 @@
 
 <div class="center container">
     <div class="well index">
-
+        Did you see an issue somewhere on the website and want to report it?
     </div></div>
-
+</html>
 </body>
 
 <%@include file="footer.jsp"%>

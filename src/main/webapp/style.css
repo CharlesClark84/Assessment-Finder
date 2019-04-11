@@ -18,6 +18,7 @@
     display: inline-block;
     float: none;
     text-align: center;
+    position: relative;
 }
 
 .navbar-nav > li > .dropdown-menu {
@@ -26,27 +27,21 @@
 
 .dropdown-menu li a {
     color: white;
-    font-size: 16px;
+    font-size: 19px;
 }
 
 #rehabSelectForm {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     border-radius: 10px;
     margin:auto;
     text-align: center;
-    max-width: 40%;
+    max-width: 50%;
     background-color: lightgray;
-    box-shadow: 1px 1px 2px 2px gray inset;
+    box-shadow: 1px 1px 2px 2px gray;
 }
 
 body {
     background-color: #265073;
-    /*background-image: url("back.jpeg");
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
     font-size: 19px;
     font-family: "Times New Roman", Times, serif;
 }
@@ -69,8 +64,31 @@ footer > div > div > ul > li > a:hover {
     margin: 1%;
 }
 
-
 #datatable {
+    border-radius: 3px;
+}
+
+input[type="text"] {
+    max-width:50%;
+}
+input[type="date"] {
+    max-width:50%;
+}
+select {
+    max-width:50%;
+}
+textarea {
+    max-width:50%;
+    border-radius: 3px;
+}
+textarea:hover {
+    box-shadow: 1px 1px 1px 2px gray;
+    background-color: lightyellow;
+    border-radius: 3px;
+}
+textarea:focus {
+    box-shadow: 1px 1px 1px 2px gray;
+    background-color: lightyellow;
     border-radius: 3px;
 }
 
@@ -78,15 +96,52 @@ input[type="submit"] {
     width:35%;
     height:35%;
     border-radius: 20px;
+    font-size: 18px;
 }
-
 input[type="submit"]:hover {
-    box-shadow: 1px 1px 2px 2px pink;
+    box-shadow: 1px 1px 1px 2px gray;
+    color:green;
+    background-color: lightyellow;
+    border:solid 1px green;
 }
 
+input[type="text"]:focus {
+    box-shadow: 1px 1px 1px 2px gray;
+    background-color: lightyellow;
+    border-radius: 3px;
+}
+input[type="date"]:focus {
+    box-shadow: 1px 1px 1px 2px gray;
+    background-color: lightyellow;
+    border-radius: 3px;
+}
+input[type="textarea"]:focus {
+    box-shadow: 1px 1px 1px 2px gray;
+    background-color: lightyellow;
+    border-radius: 3px;
+}
+select:focus {
+    box-shadow: 1px 1px 1px 2px gray;
+    border:solid 1px green;
+}
+
+input[type="text"]:hover {
+    box-shadow: 1px 1px 1px 2px gray;
+}
+input[type="date"]:hover {
+    box-shadow: 1px 1px 1px 2px gray;
+}
+select:hover {
+    box-shadow: 1px 1px 1px 2px gray;
+}
 
 .index {
     box-shadow: 1px 1px 2px 2px gray inset;
+    margin-top: 70px;
+}
+
+.outdex {
+    box-shadow: 1px 1px 2px 2px gray;
 }
 
 #state {
@@ -97,14 +152,18 @@ input[type="submit"]:hover {
     width:35%;
     height:35%;
     border-radius: 20px;
+    font-size: 18px;
 }
 
 .buttonHover:hover {
-    box-shadow: 1px 1px 2px 2px pink;
+    box-shadow: 1px 1px 1px 2px gray;
+    color:green;
+    background-color: lightyellow;
+    border:solid 1px green;
 }
 
 .contain {
-    background-color: #66973a;
+    box-shadow: 1px 1px 2px 2px forestgreen;
 }
 
 .blue {
@@ -123,7 +182,13 @@ input[type="submit"]:hover {
     color: #efef00;
 }
 
-#groupPic {
+.groupPic {
     text-align: center;
     margin:auto;
+}
+
+#welcome {
+    text-shadow: -2px 2px #796880;
+    font-size: 4em;
+    text-align: center;
 }

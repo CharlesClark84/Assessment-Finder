@@ -4,10 +4,11 @@
 <%@include file="navbar.jsp"%>
 
 <div class="well center index container">
+    <br/><div class="groupPic"><img src="pics/feelings.jpg" alt="people in group" height="70%" width="75%" border="2"></div><br/>
     <form action="alcohol" method="GET"><br>
         <fieldset>
-            <div class="assessmentHeader"><legend><h1><span class="green">Alcohol Assessment</span></h1></legend>
-                <span class="help-block">Take the test below and click Get Results to see your score.</span></div>
+            <div class="assessmentHeader"><legend><h1><span class="green">Alcohol Assessment</span></h1><br/><span class="help-block">Take the test below and click Get Results to see your score.</span></legend>
+            </div>
 
             <label for="question1">Do you feel you must consume alcohol to get through your day?</label><br />
             <input type="radio" name="question1" id="question1" value="a" checked> Yes<br />

@@ -9,6 +9,7 @@
 
         <property name="connection.username">root</property>
         <property name="connection.password">student</property>
+        <!--uBUs4XoxU9UsEw-->
 
         <property name="hibernate.c3p0.min_size">5</property>
         <property name="hibernate.c3p0.max_size">20</property>
@@ -18,7 +19,6 @@
 
         <mapping class="entity.Rehab"/>
         <mapping class="entity.Contact"/>
-        <mapping class="entity.Alcohol"/>
 
 
     </session-factory>
