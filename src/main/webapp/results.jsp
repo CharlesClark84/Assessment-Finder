@@ -5,14 +5,14 @@
 <html><body text-align="center">
 
     <div class="well index container">
-        <h2 class="center"><span class="green">Facilities in ${heading}</span></h2>
+        <h1 class="center"><span class="green">Facilities in ${heading}</span></h1>
 
         <table id="datatable" border="1" cellpadding="5" cellspacing="5" max-width="75%" margin="auto" class="table table-striped table-hover center">
 
           <thead>
-           <th>City</th>
-           <th>Facility</th>
-           <th>Phone</th>
+           <th>City<span class="glyphicon glyphicon-chevron-down"></span></th>
+           <th>Facility<span class="glyphicon glyphicon-chevron-down"></span></th>
+           <th>Phone<span class="glyphicon glyphicon-chevron-down"></span></th>
           </thead>
 
             <tbody>
@@ -31,7 +31,7 @@
         <div id="frame"><iframe src="${map}"  align="middle" width="600" height="500"></iframe></div>
 
         <br/></br>
-        <div class="center"><a href="rehab.jsp" class="btn btn-success btn-send buttonHover">Back</a> <button class="btn btn-success btn-send buttonHover" onclick="printFunction()">Print Page</button></div>
+        <div class="center"><a href="rehab.jsp" id='backButton' class="btn btn-success btn-send buttonHover">Back</a> <button id='printButton' class="btn btn-success btn-send buttonHover" onclick="printFunction()">Print</button></div>
 
     </div>
 

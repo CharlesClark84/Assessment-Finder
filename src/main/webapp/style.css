@@ -48,6 +48,7 @@ body {
 
 footer {
     color:white;
+    margin-bottom: 10px;
 }
 
 footer > div > div > ul > li > a {
@@ -56,6 +57,11 @@ footer > div > div > ul > li > a {
 
 footer > div > div > ul > li > a:hover {
     color: greenyellow;
+}
+
+#foot {
+    margin-bottom: -10px;
+    bottom:0;
 }
 
 #copyright {
@@ -120,10 +126,7 @@ input[type="textarea"]:focus {
     background-color: lightyellow;
     border-radius: 3px;
 }
-select:focus {
-    box-shadow: 1px 1px 1px 2px gray;
-    border:solid 1px green;
-}
+
 
 input[type="text"]:hover {
     box-shadow: 1px 1px 1px 2px gray;
@@ -137,7 +140,8 @@ select:hover {
 
 .index {
     box-shadow: 1px 1px 2px 2px gray inset;
-    margin-top: 70px;
+    margin-top: 75px;
+    margin-bottom: 20px;
 }
 
 .outdex {
@@ -191,4 +195,46 @@ select:hover {
     text-shadow: -2px 2px #796880;
     font-size: 4em;
     text-align: center;
+}
+
+#contactSubmit {
+    max-width: 17%;
+    font-size: 135%;
+}
+#rehabSubmit {
+    max-width: 20%;
+    font-size: 150%;
+}
+#drugSubmit {
+    max-width: 20%;
+    font-size: 150%;
+}
+#alcoholSubmit {
+    max-width: 20%;
+    font-size: 150%;
+}
+#backButton {
+    max-width: 15%;
+    font-size: 125%;
+}
+#printButton {
+    max-width: 15%;
+    font-size: 125%;
+}
+
+th {
+    color: #5998ff;
+}
+th:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.box {
+    border: solid #76d1ee 3px;
+    border-radius: 4px;
+    max-width: 300px;
+    max-height: 300px;
+    display:inline-block;
+    padding:8px;
 }

@@ -64,7 +64,7 @@
                 <option value="Wyoming">Wyoming</option>
             </select>
         <br/><br/>
-        <input type="submit" value="View" class="btn btn-success btn-send"><br/><br/>
+        <input id="rehabSubmit" type="submit" value="View" class="btn btn-success btn-send"><br/><br/>
     </fieldset>
 </form></div><br/>
         <div class="center">There are so many treatment centers out there these days. This list is not complete as of yet, but we are working hard to get it as complete as possible.</div>

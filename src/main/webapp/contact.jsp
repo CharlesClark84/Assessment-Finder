@@ -24,7 +24,7 @@
             <label for="reason"><span class="blue">Reason:</span></label><br />
             <textarea id="reason" name="reason" type="text" placeholder="Enter Contact Reason" rows="5" cols="50"  required></textarea><br /><br />
 
-            <input type="submit" name="submit" value="Submit" class="btn btn-success btn-send" />
+            <input id="contactSubmit" type="submit" name="submit" value="Submit" class="btn btn-success btn-send" />
         </form>
     </div></div></div>
 

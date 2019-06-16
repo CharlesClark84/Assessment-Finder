@@ -56,9 +56,9 @@
 
 
 
-            <br/><br/>  <input type="submit" name="submit" value="Get Results" class="btn btn-success btn-send"/>
+            <br/><br/>  <input id='alcoholSubmit' type="submit" name="submit" value="Get Results" class="btn btn-success btn-send"/>
         </fieldset>
-    </form></div><br />
+    </form></div>
 
 
 

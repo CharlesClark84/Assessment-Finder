@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse navbar-collapse">
+<nav class="navbar navbar-inverse navbar-collapse" id="foot">
     <div class="container">
 <footer>
     <div class="container"><br/>

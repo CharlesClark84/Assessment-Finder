@@ -57,9 +57,9 @@
 
 
 
-           <br/><br/> <input type="submit" name="submit" value="Get Results" class="btn btn-success btn-send"/>
+           <br/><br/> <input id="drugSubmit" type="submit" name="submit" value="Get Results" class="btn btn-success btn-send"/>
         </fieldset>
-    </form></div><br />
+    </form></div>
 
 <%@include file="footer.jsp"%>
 </body>
