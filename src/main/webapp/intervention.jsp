@@ -23,7 +23,7 @@
 
     <div class="groupPic"><img src="pics/grouppic.jpg" alt="people in group" height="40%" width="55%" border="2"></div>
 
-    <h2 class="center"><span class="green">The Steps of Drug Intervention The following 9 steps can help you plan for and run your intervention</span></h2>
+    <h2 class="center"><span class="green">The Steps of Drug Intervention. Using these steps can greatly improve the outcome of any intervention</span></h2>
 
     <p><ol>
         <li><span class="blue">Stop enabling the person</span> by giving him money, making excuses for him, ignoring his drug problem, paying his bills and other means of enabling. This will only

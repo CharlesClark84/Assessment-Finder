@@ -933,71 +933,101 @@
     <table id="236" parent="9" name="rehab">
       <Engine>InnoDB</Engine>
     </table>
-    <column id="237" parent="235" name="id">
+    <table id="237" parent="9" name="reports">
+      <Engine>InnoDB</Engine>
+    </table>
+    <column id="238" parent="235" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="238" parent="235" name="date">
+    <column id="239" parent="235" name="date">
       <Position>2</Position>
       <DataType>date|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="239" parent="235" name="firstName">
+    <column id="240" parent="235" name="firstName">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="240" parent="235" name="lastName">
+    <column id="241" parent="235" name="lastName">
       <Position>4</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="241" parent="235" name="contact">
+    <column id="242" parent="235" name="contact">
       <Position>5</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="242" parent="235" name="reason">
+    <column id="243" parent="235" name="reason">
       <Position>6</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="243" parent="235" name="PRIMARY">
+    <key id="244" parent="235" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="244" parent="236" name="id">
+    <column id="245" parent="236" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="245" parent="236" name="state">
+    <column id="246" parent="236" name="state">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="246" parent="236" name="city">
+    <column id="247" parent="236" name="city">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="247" parent="236" name="facility">
+    <column id="248" parent="236" name="facility">
       <Position>4</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="248" parent="236" name="phone">
+    <column id="249" parent="236" name="phone">
       <Position>5</Position>
       <DataType>varchar(255)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="249" parent="236" name="PRIMARY">
+    <key id="250" parent="236" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="251" parent="237" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="252" parent="237" name="page">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="253" parent="237" name="error">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="254" parent="237" name="fix">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="255" parent="237" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

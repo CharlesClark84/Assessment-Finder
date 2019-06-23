@@ -41,9 +41,15 @@
 }
 
 body {
-    background-color: #265073;
     font-size: 19px;
     font-family: "Times New Roman", Times, serif;
+
+    background-image: url("pics/background.jpg"); /* The image used */
+    background-color: #265073; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 footer {
@@ -198,8 +204,8 @@ select:hover {
 }
 
 #contactSubmit {
-    max-width: 17%;
-    font-size: 135%;
+    max-width: 14%;
+    font-size: 125%;
 }
 #rehabSubmit {
     max-width: 20%;
@@ -231,10 +237,19 @@ th:hover {
 }
 
 .box {
-    border: solid #76d1ee 3px;
-    border-radius: 4px;
+    border: solid #cfd2c3 3px;
+    background-color: white;
+    border-radius: 10px;
     max-width: 300px;
     max-height: 300px;
     display:inline-block;
     padding:8px;
+    box-shadow: 1px 1px 1px 1px grey inset;
+}
+
+#state {
+    -webkit-appearance: menulist-button;
+    height: 50px;
+    width:250px;
+    font-size: 25px;
 }

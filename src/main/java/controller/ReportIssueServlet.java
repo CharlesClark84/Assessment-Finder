@@ -1,7 +1,7 @@
 package controller;
 
 
-import entity.Contact;
+import entity.Reports;
 import persistence.GenericDao;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -13,40 +13,35 @@ import java.io.IOException;
 
 
 @WebServlet(
-        urlPatterns = {"/contact"}
+        urlPatterns = {"/issue"}
 )
 
-public class ContactServlet extends HttpServlet {
+public class ReportIssueServlet extends HttpServlet {
 
-    GenericDao contactDao = new GenericDao(Contact.class);
-    Contact contact = new Contact();
+    GenericDao reportsDao = new GenericDao(Reports.class);
+    Reports reports = new Reports();
 
-        @Override
-        protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        String date = htmlFilter(req.getParameter("date").trim());
-        contact.setDate(date);
+        String page = htmlFilter(req.getParameter("page").trim());
+        reports.setPage(page);
 
-        String first = htmlFilter(req.getParameter("firstName").trim());
-        contact.setFirstName(first);
+        String error = htmlFilter(req.getParameter("error").trim());
+        reports.setError(error);
 
-        String last = htmlFilter(req.getParameter("lastName").trim());
-        contact.setLastName(last);
+        String fix = htmlFilter(req.getParameter("fix").trim());
+        reports.setFix(fix);
 
-        String cnt = htmlFilter(req.getParameter("cnt").trim());
-        contact.setContact(cnt);
 
-        String reason = htmlFilter(req.getParameter("reason").trim());
-        contact.setReason(reason);
-
-       req.setAttribute("fname", first);
-       req.setAttribute("lname", last);
-            req.setAttribute("contact", cnt);
+        req.setAttribute("PG", page);
+        req.setAttribute("ER", error);
+        req.setAttribute("FX", fix);
 
         //Insert user values into database
-        contactDao.insert(contact);
+        reportsDao.insert(reports);
 
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/contactResults.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/reportResults.jsp");
         dispatcher.forward(req, resp);
     }
 

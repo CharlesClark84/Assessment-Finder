@@ -6,102 +6,130 @@
 
     <div class="well index center container">
 
-        <legend><span class="green"><h1>Select a Drug</h1></span></legend><br />
+        <legend><span class="green"><h1>Select a Drug to See Information</h1></span></legend><br />
 
-        <div class="box btn btn-send buttonHover">
+        <a href="adderallFact.jsp"><div class="btn btn-send buttonHover box">
+            <span class="glyphicon glyphicon-folder-open"></span>
             <!--<div><img src="pics/ad" alt="adderall" height="50%" width="50%"></div>-->
-            <div><a href="facts/adderallFact.jsp">Adderall</a></div>
-        </div>
+            <div>Adderall</div>
+        </div></a>
 
-        <div class="box btn btn-send buttonHover">
+        <a href="alcoholFact.jsp"><div class="btn btn-send buttonHover box">
+            <span class="glyphicon glyphicon-folder-open"></span>
             <!--<div><img src="pics/alcohol-bottles.jpg" alt="bottles" height="50%" width="50%"></div>-->
-            <div><a href="facts/alcoholFact.jsp">Alcohol</a></div>
-        </div>
+            <div>Alcohol</div>
+        </div></a>
 
-        <div class="box btn btn-send buttonHover">
-            <div><a herf="cocaineFact.jsp">Cocaine</a></div>
-        </div>
+        <a href="cocaineFact.jsp"><div class="box btn btn-send buttonHover">
+            <span class="glyphicon glyphicon-folder-open"></span>
+            <div>Cocaine</div>
+        </div></a>
 
-        <div class="box btn btn-send buttonHover">
-            <div><a href="facts/crackFact.jsp">Crack</a></div>
-        </div>
+        <a href="crackFact.jsp"><div class="box btn btn-send buttonHover">
+            <span class="glyphicon glyphicon-folder-open"></span>
+            <div>Crack</div>
+        </div></a>
 
-        <div class="box btn btn-send buttonHover">
-            <div><a href="facts/ecstasyFact.jsp">Ecstasy</a></div>
-        </div>
+        <a href="ecstasyFact.jsp"><div class="box btn btn-send buttonHover">
+            <span class="glyphicon glyphicon-folder-open"></span>
+            <div>Ecstasy</div>
+        </div></a>
 
-        <div class="box btn btn-send buttonHover">
-            <div><a href="facts/fentanylFact.jsp">Fentanyl</a></div>
-        </div>
+        <a href="fentanylFact.jsp"><div class="box btn btn-send buttonHover">
+            <span class="glyphicon glyphicon-folder-open"></span>
+            <div>Fentanyl</div>
+        </div></a>
 
-        <div class="box btn btn-send buttonHover">
-            <div><a href="facts/hashishFact.jsp">Hashish</a></div>
-        </div>
+        <a href="hashishFact.jsp"><div class="box btn btn-send buttonHover">
+            <span class="glyphicon glyphicon-folder-open"></span>
+            <div>Hashish</div>
+        </div></a>
 
-        <div class="box btn btn-send buttonHover">
-            <div><a href="facts/heroinFact.jsp">Heroin</a></div>
-        </div>
+        <a href="heroinFact.jsp"><div class="box btn btn-send buttonHover">
+            <span class="glyphicon glyphicon-folder-open"></span>
+            <div>Heroin</div>
+        </div></a>
 
-        <div class="box btn btn-send buttonHover">
-            <div><a href="facts/ketamineFact.jsp">Ketamine</a></div>
-        </div>
-        <div class="box btn btn-send buttonHover">
-            <div><a href="facts/lsdFact.jsp">LSD</a></div>
-        </div>
+        <a href="kratomFact.jsp"><div class="box btn btn-send buttonHover">
+            <span class="glyphicon glyphicon-folder-open"></span>
+            <div>Kratom</div>
+        </div></a>
 
-        <div class="box btn btn-send buttonHover">
+        <a href="ketamineFact.jsp"><div class="box btn btn-send buttonHover">
+            <span class="glyphicon glyphicon-folder-open"></span>
+            <div>Ketamine</div>
+        </div></a>
+
+        <a href="lsdFact.jsp"><div class="box btn btn-send buttonHover">
+            <span class="glyphicon glyphicon-folder-open"></span>
+            <div>LSD</div>
+        </div></a>
+
+        <a href="marijuanaFact.jsp"><div class="box btn btn-send buttonHover">
+            <span class="glyphicon glyphicon-folder-open"></span>
             <!--<div><img src="pics/thc2.jpg" alt="thc" height="50%" width="50%"></div>-->
-            <div><a href="facts/marijuanaFact.jsp">Marijuana</a></div>
-        </div>
+            <div>Marijuana</div>
+        </div></a>
 
-        <div class="box btn btn-send buttonHover">
-            <div><a href="facts/methFact.jsp">Meth</a></div>
-        </div>
+        <a href="methFact.jsp"><div class="box btn btn-send buttonHover">
+            <span class="glyphicon glyphicon-folder-open"></span>
+            <div>Meth</div>
+        </div></a>
 
-        <div class="box btn btn-send buttonHover">
-            <div><a href="facts/morphineFact.jsp">Morphine</a></div>
-        </div>
+        <a href="morphineFact.jsp"><div class="box btn btn-send buttonHover">
+            <span class="glyphicon glyphicon-folder-open"></span>
+            <div>Morphine</div>
+        </div></a>
 
-        <div class="box btn btn-send buttonHover">
-            <div><a href="facts/mushroomFact.jsp">Mushrooms</a></div>
-        </div>
+        <a href="mushroomFact.jsp"><div class="box btn btn-send buttonHover">
+            <span class="glyphicon glyphicon-folder-open"></span>
+            <div>Mushrooms</div>
+        </div></a>
 
-        <div class="box btn btn-send buttonHover">
-            <div><a href="facts/opioidsFact.jsp">Opioids</a></div>
-        </div>
+        <a href="opioidsFact.jsp"><div class="box btn btn-send buttonHover">
+            <span class="glyphicon glyphicon-folder-open"></span>
+            <div>Opioids</div>
+        </div></a>
 
-        <div class="box btn btn-send buttonHover">
-            <div><a href="facts/oxycotinFact.jsp">OxyCotin</a></div>
-        </div>
+        <a href="oxycotinFact.jsp"><div class="box btn btn-send buttonHover">
+            <span class="glyphicon glyphicon-folder-open"></span>
+            <div>OxyCotin</div>
+        </div></a>
 
-        <div class="box btn btn-send buttonHover">
-            <div><a href="facts/pcpFact.jsp">PCP</a></div>
-        </div>
+        <a href="pcpFact.jsp"><div class="box btn btn-send buttonHover">
+            <span class="glyphicon glyphicon-folder-open"></span>
+            <div>PCP</div>
+        </div></a>
 
-        <div class="box btn btn-send buttonHover">
-            <div><a href="facts/peyoteFact.jsp">Peyote</a></div>
-        </div>
+        <a href="peyoteFact.jsp"><div class="box btn btn-send buttonHover">
+            <span class="glyphicon glyphicon-folder-open"></span>
+            <div>Peyote</div>
+        </div></a>
 
-        <div class="box btn btn-send buttonHover">
-            <div><a href="facts/ritalinFact.jsp">Ritalin</a></div>
-        </div>
+        <a href="ritalinFact.jsp"><div class="box btn btn-send buttonHover">
+            <span class="glyphicon glyphicon-folder-open"></span>
+            <div>Ritalin</div>
+        </div></a>
 
-        <div class="box btn btn-send buttonHover">
+        <a href="stimulantsFact.jsp"><div class="box btn btn-send buttonHover"><span class="glyphicon glyphicon-folder-open"></span>
             <!--<div><img src="pics/st" alt="stimulants" height="50%" width="50%"></div>-->
-            <div><a href="facts/stimulantsFact.jsp">Stimulants</a></div>
-        </div>
+            <div>Stimulants</div>
+        </div></a>
 
-        <div class="box btn btn-send buttonHover">
-            <div><a href="facts/spiceFact.jsp">Spice/K2</a></div>
-        </div>
+        <a href="spiceFact.jsp"><div class="box btn btn-send buttonHover">
+            <span class="glyphicon glyphicon-folder-open"></span>
+            <div>Spice/K2</div>
+        </div></a>
 
-        <div class="box btn btn-send buttonHover">
-            <div><a href="facts/sedativeFact.jsp">Sedative/Tranquilizers</a></div>
-        </div>
+        <a href="sedativeFact.jsp"><div class="box btn btn-send buttonHover">
+            <span class="glyphicon glyphicon-folder-open"></span>
+            <div>Sedative</div>
+        </div></a>
 
-        <div class="box btn btn-send buttonHover">
-            <div><a href="facts/xanaxFact.jsp">Xanax</a></div>
-        </div>
+        <a href="xanaxFact.jsp"><div class="box btn btn-send buttonHover">
+            <span class="glyphicon glyphicon-folder-open"></span>
+            <div>Xanax</div>
+        </div></a>
 
 
 </div>

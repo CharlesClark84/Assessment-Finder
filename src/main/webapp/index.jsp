@@ -1,37 +1,35 @@
 <%@include file="taglib.jsp"%>
 <%@include file="head.jsp"%>
-<%
-    Integer visitCount = 0;
-    String visitCountKey = new String("visitCount");
+<%--<%--%>
+    <%--Integer visitCount = 0;--%>
+    <%--String visitCountKey = new String("visitCount");--%>
 
 
-    // Check if this is new comer on your Webpage.
-    if (session.isNew() ){
+    <%--// Check if this is new comer on your Webpage.--%>
+    <%--if (session.isNew() ){--%>
 
-        session.setAttribute(visitCountKey,  visitCount);
-    }
-    visitCount = (Integer)session.getAttribute(visitCountKey);
-    visitCount = visitCount + 1;
-    session.setAttribute(visitCountKey,  visitCount);
-%>
+        <%--session.setAttribute(visitCountKey,  visitCount);--%>
+    <%--}--%>
+    <%--visitCount = (Integer)session.getAttribute(visitCountKey);--%>
+    <%--visitCount = visitCount + 1;--%>
+    <%--session.setAttribute(visitCountKey,  visitCount);--%>
+<%--%>--%>
 <html>
 
 <%@include file="navbar.jsp"%>
 
-<table padding="5px" align="right">
-    <tr bgcolor = "#949494">
-    <tr>
-        <td>Number of visits</td>
-        <td><% out.print(visitCount); %></td>
-    </tr>
-</table>
+<%--<table padding="5px" align="right">--%>
+    <%--<tr bgcolor = "#949494">--%>
+    <%--<tr>--%>
+        <%--<td>Number of visits</td>--%>
+        <%--<td><% out.print(visitCount); %></td>--%>
+    <%--</tr>--%>
+<%--</table>--%>
 
 
 <div class="well index container">
 
-        <h1 id="welcome"><span class="green">W</span><span class="blue">e</span><span class="green">l</span><span class="yellow">c</span><span class="green">o</span><span class="blue">m</span><span class="green">e</span></h1><br/>
-
-        <h2 class="center"><span class="green">Benefits of Assessments</span></h2>
+        <h1 class="center"><span class="green">Benefits of Assessments</span></h1>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;The primary benefit of a self-assessment test is that it can be completed privately in a place where you feel comfortable,
             such as your home. The test can also provide immediate feedback regarding your drug and alcohol consumption. However, these tests
             should not be used as a substitute for a professional evaluation by a qualified doctor, clinician, or addiction assessment specialist.</p>

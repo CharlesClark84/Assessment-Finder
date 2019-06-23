@@ -5,7 +5,7 @@ import javax.persistence.*;
 
 
 /**
- * The type Contact.
+ * The type Contact for the contact form
  */
 @Entity(name = "Contact")
 @Table(name ="contact")

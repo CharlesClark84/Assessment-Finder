@@ -19,6 +19,7 @@
 
         <mapping class="entity.Rehab"/>
         <mapping class="entity.Contact"/>
+        <mapping class="entity.Reports"/>
 
 
     </session-factory>
