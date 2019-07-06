@@ -54,7 +54,7 @@
     </div>
     <br/>
     <div>
-        <h2>Images of kratom</h2>
+        <span class="green"><h2>Images of kratom</h2></span>
         <div class="groupPic"><img src="pics/Kratom.jpg" alt="kratom leaf" height="30%" width="30%"><img src="pics/kratom3.jpg" alt="kratom" height="30%" width="30%"><img src="pics/kratom2.png" alt="kratom" height="30%" width="30%"></div>
     </div>
 

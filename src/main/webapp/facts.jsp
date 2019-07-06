@@ -50,14 +50,14 @@
             <div>Heroin</div>
         </div></a>
 
-        <a href="kratomFact.jsp"><div class="box btn btn-send buttonHover">
-            <span class="glyphicon glyphicon-folder-open"></span>
-            <div>Kratom</div>
-        </div></a>
-
         <a href="ketamineFact.jsp"><div class="box btn btn-send buttonHover">
             <span class="glyphicon glyphicon-folder-open"></span>
             <div>Ketamine</div>
+        </div></a>
+
+        <a href="kratomFact.jsp"><div class="box btn btn-send buttonHover">
+            <span class="glyphicon glyphicon-folder-open"></span>
+            <div>Kratom</div>
         </div></a>
 
         <a href="lsdFact.jsp"><div class="box btn btn-send buttonHover">

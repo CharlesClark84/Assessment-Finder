@@ -1,4 +1,3 @@
-<%@include file="taglib.jsp"%>
 <%@include file="head.jsp"%>
 <html>
 <%@include file="navbar.jsp"%>

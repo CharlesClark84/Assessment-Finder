@@ -25,6 +25,8 @@
 
     <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
 
+    <script src="bootstrapHover.js"></script>
+
     <link rel="stylesheet" href="style.css">
 
 

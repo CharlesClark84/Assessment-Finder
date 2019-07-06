@@ -17,11 +17,12 @@
             <li><a href="index.jsp"><span class="glyphicon glyphicon-home"></span> Home</a></li>
 
             <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-question-sign"></span> Do I Need Treatment?
+                <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-question-sign"></span> Self Assessments
                     <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                     <li><a href="drug.jsp"><span class="glyphicon glyphicon-hourglass"></span> Drug Assessment</a></li>
                     <li><a href="alcohol.jsp"><span class="glyphicon glyphicon-hourglass"></span> Alcohol Assessment</a></li>
+                    <li><a href="mentalAssessMain.jsp"><span class="glyphicon glyphicon-hourglass"></span> Mental Health Assessments</a></li>
                 </ul>
             </li>
 
@@ -29,16 +30,19 @@
 
 
             <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-question-sign"></span> Information to Help
+                <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-question-sign"></span> Information to Help
                     <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                     <li><a href="intervention.jsp"><span class="glyphicon glyphicon-user"></span> Intervention</a></li>
                     <li><a href="facts.jsp"><span class="glyphicon glyphicon-user"></span> Drug Facts</a></li>
+                    <li><a href="mentalHealth.jsp"><span class="glyphicon glyphicon-user"></span> Mental Health</a></li>
+                    <li><a href="blog.jsp"><span class="glyphicon glyphicon-user"></span> Blogs</a></li>
+                    <li><a href="askedQuestions.jsp"><span class="glyphicon glyphicon-user"></span> FAQs</a></li>
                 </ul>
             </li>
 
             <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-envelope"></span> Contact Us
+                <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-envelope"></span> Contact Us
                     <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                     <li><a href="contact.jsp"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
