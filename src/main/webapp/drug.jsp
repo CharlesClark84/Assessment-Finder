@@ -4,7 +4,7 @@
 <%@include file="navbar.jsp"%>
 
 <div class="center well index container">
-    <br/><div class="groupPic"><img src="pics/feelings.jpg" alt="people in group" height="70%" width="75%" border="2"></div><br/>
+    <br/><div class="groupPic"><img src="pics/feelings.jpg" alt="people in group" height="60%" width="65%" border="2"></div><br/>
 
     <form action="results" method="GET"><br>
         <fieldset>

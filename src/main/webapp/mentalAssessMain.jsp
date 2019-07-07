@@ -17,7 +17,7 @@
 
     <div>
         <h3><span class="blue">Common mental health disorders linked to substance abuse include the following:</span></h3>
-        <ol>
+        <ul>
             <li><span class="blue">Attention-deficit hyperactive disorder(ADHD)</span>
 
                 People with attention deficit hyperactivity disorder (ADHD) may be more inclined to abuse substances as a way to cope with their symptoms. Many people are prescribed stimulants to treat their ADHD, which can be habit-forming and lead to a toxic pattern of substance abuse.
@@ -53,7 +53,7 @@
             <li><span class="blue">Schizophrenia</span>
 
                 Schizophrenia is characterized by hallucinations and delusional thinking. Diagnosing schizophrenia alongside an addiction can be difficult because both conditions share the same effects. When a person has schizophrenia and uses substances as a way to self-medicate their condition, they risk putting their health further at risk.
-        </ol>
+        </ul>
     </div>
 
 </div>

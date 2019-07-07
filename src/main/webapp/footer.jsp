@@ -3,7 +3,7 @@
 <footer>
     <div class="container"><br/>
         <div class="row">
-            <div id="footerHelp" class="col-sm-12"><span class="glyphicon glyphicon-asterisk"></span><span class="glyphicon glyphicon-asterisk"></span>Additional Help<span class="glyphicon glyphicon-asterisk"></span><span class="glyphicon glyphicon-asterisk"></span></div>
+            <div id="footerHelp" class="col-sm-12"><span class="glyphicon glyphicon-asterisk"></span>Additional Help<span class="glyphicon glyphicon-asterisk"></span></div>
 
             <div class="col-sm-6">
             <p>Websites</p>

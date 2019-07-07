@@ -31,7 +31,7 @@
 
         <h1 class="center"><span class="green">Benefits of Assessments</span></h1>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;The primary benefit of a self-assessment test is that it can be completed privately in a place where you feel comfortable,
-            such as your home. The test can also provide immediate feedback regarding your drug and alcohol consumption. However, these tests
+            such as your home. The self assessments are designed to provide you with quick feedback and a general idea of symptoms and disorders. However, these assessments
             should not be used as a substitute for a professional evaluation by a qualified doctor, clinician, or addiction assessment specialist.</p>
 
         <br/>

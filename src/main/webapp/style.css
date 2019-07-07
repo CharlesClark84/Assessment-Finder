@@ -14,10 +14,11 @@
 }
 
 .navbar-nav > li {
-    font-size: 20px;
+    font-size: 22px;
     display: inline-block;
     float: none;
     text-align: center;
+    margin:auto;
     position: relative;
 }
 

@@ -4,7 +4,7 @@
 <%@include file="navbar.jsp"%>
 
 <div class="well center index container">
-    <br/><div class="groupPic"><img src="pics/feelings.jpg" alt="people in group" height="70%" width="75%" border="2"></div><br/>
+    <br/><div class="groupPic"><img src="pics/feelings.jpg" alt="people in group" height="60%" width="65%" border="2"></div><br/>
     <form action="alcohol" method="GET"><br>
         <fieldset>
             <div class="assessmentHeader"><legend><h1><span class="green">Alcohol Assessment</span></h1><br/><span class="help-block">Take the test below and click Get Results to see your score.</span></legend>
